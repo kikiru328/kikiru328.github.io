@@ -20,11 +20,12 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 오월의기록
+title:                 오월의 기록
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           개발하면서 알게 된 것들과 알아가야할 것들을 기록합니다. 2022.08.01 ~
+description:           >
+   "개발하면서 알게 된 것들과 알아가야할 것들을 기록합니다. 2022.08.01 ~"
 
 # A shorter description for the sidebar.
 tagline:               얕게 시작하여 깊게 끝내보려고 합니다.
@@ -35,7 +36,7 @@ keywords:              [키워드]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/new_Logo.png
+logo:                  /assets/img/new_logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -78,8 +79,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
