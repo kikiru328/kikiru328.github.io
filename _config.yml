@@ -51,7 +51,7 @@ menu:
   - title:             Documentation
     url:               /docs/
   - title:             Error & Fix
-    url:               /error_fix/
+    url:               /ErrorFix/
   - title:             About
     url:               /about/
 
