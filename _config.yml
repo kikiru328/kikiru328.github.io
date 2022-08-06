@@ -50,7 +50,7 @@ author:
 menu:
   - title:             Documentation
     url:               /docs/
-  - title:             example
+  - title:             Example
     url:               /example/
   - title:             About
     url:               /about/
@@ -79,8 +79,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
