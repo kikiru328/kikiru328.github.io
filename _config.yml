@@ -48,14 +48,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Documentation
-    url:               /docs/
-  - title:             Example
-    url:               /example/
   - title:             About
     url:               /about/
-  - title:             AAA
-    url:               /aaa/
+  - title:             Study
+    url:               /docs/
+  - title:             Solution
+    url:               /solution/
+  - title:             Diary
+    url:               /diary/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -81,8 +81,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
