@@ -5,7 +5,7 @@ description: >
   Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 sitemap: false
-permalink: /docs/
+permalink: /study/
 ---
 
 지금까지 공부했던 것들을 기록하고, 복습하는 시간을 갖으려 합니다.  
