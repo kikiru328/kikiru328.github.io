@@ -5,14 +5,14 @@ description: >
   Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 sitemap: false
-permalink: /tips/
+permalink: /error_tips/
 
 ---
 
 개발하면서 겪어왔던 여러가지의 에러들과 그에 따른 해결법을 정리합니다.  
 또한 여러가지의 팁들도 정리합니다.
 
-> `2022.08.13 error * tips Log : Start`
+> `2022.08.13 Error_Fix Log : Start`
 {:.note}
 
 
