@@ -52,8 +52,8 @@ menu:
     url:               /about/
   - title:             Study
     url:               /docs/
-  - title:             Error & Tips
-    url:               /error_tips/
+  - title:             Tips
+    url:               /tips/
   - title:             Diary
     url:               /diary/
 
