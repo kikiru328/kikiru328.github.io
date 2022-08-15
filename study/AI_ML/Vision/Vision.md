@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Diary
+title: Vision
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: diary
+slug: Vision
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  지금까지 개발하면서 힘들었던 점, 느낀점들을 자유롭게 기록합니다.
+  딥러닝을 활용한 Computer Vision에 관한 내용을 공부하고 정리합니다.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

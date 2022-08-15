@@ -19,34 +19,34 @@ permalink: /study/
 {:.note}
 
 
-## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
+## Code & Language
+* [Python]{:.heading.flip-title} --- 파이썬에 관한 내용을 정리합니다.
+* [Git]{:.heading.flip-title} --- 깃에 관한 내용을 정리합니다.
 {:.related-posts.faded}
 
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+## AI & ML
+* [Tensorflow]{:.heading.flip-title} --- Tensorflow의 사용법을 정리합니다.
+* [Pytorch]{:.heading.flip-title} --- Pytorch의 사용법을 정리합니다.
+* [NLP]{:.heading.flip-title} --- 딥러닝 자연어 처리를 정리합니다.
+* [Vision]{:.heading.flip-title} --- 딥러닝 컴퓨터 비전을 정리합니다.
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack.
-{:.related-posts.faded}
 
-[install]: install.md
-[upgrade]: upgrade.md
-[config]: config.md
-[basics]: basics.md
-[writing]: writing.md
-[scripts]: scripts.md
-[build]: build.md
-[advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md
+## Frontend
+* [Frontend]{:.heading.filp-title} --- Frontend Web dev.
+
+## Backend
+* [Backend]{:.heading.filp-title} --- Backend Server, Database, Enginerring 설명
+
+
+[Python]: Language/Python/Python.md
+[Git]: Language/Git/Git.md
+
+[Tensorflow]: AI_ML/Tensorflow/Tensorflow.md
+[Pytorch]: AI_ML/Pytorch/Pytorch.md
+[NLP]: AI_ML/NLP/NLP.md
+[Vision]: AI_ML/Vision/Vision.md
+
+
+[Frontend]: Frontend/Frontend.md
+[Backend]: Backend/Backend.md
