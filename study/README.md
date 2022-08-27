@@ -17,7 +17,7 @@ permalink: /study/
 
 > `2022.08.13 Study Log : Start`
 {:.note}
-
+  
 
 ## Code & Language
 * [Python]{:.heading.flip-title} --- 파이썬에 관한 내용을 정리합니다.
