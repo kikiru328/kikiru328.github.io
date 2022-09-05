@@ -47,27 +47,27 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-menu:
-  - title:             About
-    url:               /about/
-  - title:             Study
-    url:               /study/
-  - title:             Error & Tips
-    url:               /error_tips/
-  - title:             Diary
-    url:               /diary/
-  - title:             EX_Pages
-    url:               /EX_Pages/
+# menu:
+#   - title:             About
+#     url:               /about/
+#   - title:             Study
+#     url:               /study/
+#   - title:             Error & Tips
+#     url:               /error_tips/
+#   - title:             Diary
+#     url:               /diary/
+#   - title:             EX_Pages
+#     url:               /EX_Pages/
 
-# Add links to the footer.
-# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# # Add links to the footer.
+# # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+# legal:
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             '%copy; 2022. by Daniel Kim'
