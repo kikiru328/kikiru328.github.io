@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Python
 slug: python
-category: study
+category: devlang
 menu: false
 order: 1
 ---
