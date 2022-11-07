@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-06T12:00:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 무엇을 해야할까</title><link href="http://localhost:4000/thought/Thought/" rel="alternate" type="text/html" title="[Thought] 무엇을 해야할까" /><published>2022-11-06T00:00:00+09:00</published><updated>2022-11-06T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought</id><content type="html" xml:base="http://localhost:4000/thought/Thought/"><![CDATA[<h3 id="비전공자의-개발자는-어떻게-해야할까">비전공자의 개발자는 어떻게 해야할까</h3>]]></content><author><name>오월이 주인 🐾</name></author><category term="Thought" /><category term="Thought" /><category term="Essay" /><summary type="html"><![CDATA[어떤 개발자가 될지 고민이 많다.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-07T18:21:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 무엇을 해야할까</title><link href="http://localhost:4000/thought/Thought/" rel="alternate" type="text/html" title="[Thought] 무엇을 해야할까" /><published>2022-11-06T00:00:00+09:00</published><updated>2022-11-06T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought</id><content type="html" xml:base="http://localhost:4000/thought/Thought/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
+
+<h3 id="지금부터-해야하는-것들"><strong>지금부터 해야하는 것들</strong></h3>
+
+<font size="2"> <span style="color:gray">~~생각보다 많겠지?~~</span></font>
+
+<ol>
+  <li>
+    <p>인공지능</p>
+
+    <p><span style="color:yellow">인공지능</span>쪽으로 전문가가 되고 싶다면서 인공지능 공부를 제대로 한 적이 없는 것 같다.<br />
+ 케라스부터 해야하나 아니면 어떻게 해야하나</p>
+  </li>
+  <li>
+    <p>업무</p>
+
+    <p>제대로 끝맞춘게 없다. 왜냐하면 지금 잘 안되거든<br />
+ deepsort는 마무리 단계이긴한데… 짜증나는건 multiprocessing 어떻게 하는거지..</p>
+  </li>
+  <li>
+    <p>클라이밍</p>
+
+    <p>클라이밍 다녀와야겠다. 오늘은 너무 늦게 썻어..</p>
+  </li>
+</ol>
+
+<font size="2"> <span style="color:gray">현재시각 18:20</span></font>]]></content><author><name>오월이 주인 🐾</name></author><category term="Thought" /><category term="Thought" /><category term="Essay" /><summary type="html"><![CDATA[어떤 개발자가 될지 고민이 많다.]]></summary></entry></feed>
