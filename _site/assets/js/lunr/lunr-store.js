@@ -4,4 +4,16 @@ var store = [{
         "tags": ["Thought","Essay"],
         "url": "http://localhost:4000/thought/Thought/",
         "teaser": null
+      },{
+        "title": "[Thought] 인공지능을 공부해보자",
+        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  인공지능을 공부하자. 아니 연구하자.    인공지능은 `python`을 조금 더 공부하자.   1. 계획   우선 하는 연구부터 천천히 정리하는게 좋을 것 같다.   DeepSort 정리하기.   2. Side Project   사이드 프로젝트도 하나 하자. 클라이밍 프로젝트도 좋고 Dacon도 해보자.   ","categories": ["Thought"],
+        "tags": ["Thought","Essay"],
+        "url": "http://localhost:4000/thought/Thought2/",
+        "teaser": null
+      },{
+        "title": "[Deepsort] Deepsort 란?",
+        "excerpt":"Deepsort  Deepsort 란 yolov5를 이용해서 객체를 탐지 및 추적하는데 쓰이는 알고리즘이다.   이번 주말까지 정리완료 해야지  ","categories": ["Deepsort"],
+        "tags": ["Deepsort","DeepLearning","Yolo","Python"],
+        "url": "http://localhost:4000/deepsort/Deepsort/",
+        "teaser": null
       }]
