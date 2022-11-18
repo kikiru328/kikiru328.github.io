@@ -12,8 +12,14 @@ var store = [{
         "teaser": null
       },{
         "title": "[Deepsort] Deepsort 란?",
-        "excerpt":"Deepsort  Deepsort 란 yolov5를 이용해서 객체를 탐지 및 추적하는데 쓰이는 알고리즘이다.   이번 주말까지 정리완료 해야지  ","categories": ["Deepsort"],
+        "excerpt":"Deepsort  Deepsort 란 yolov5를 이용해서 객체를 탐지 및 추적하는데 쓰이는 알고리즘이다.   어느정도 끝나면 하자.  ","categories": ["Deepsort"],
         "tags": ["Deepsort","DeepLearning","Yolo","Python"],
         "url": "http://localhost:4000/deepsort/Deepsort/",
+        "teaser": null
+      },{
+        "title": "[Certification] 빅데이터실기",
+        "excerpt":"하기싫어  ","categories": ["Certification"],
+        "tags": ["Certification","BigData","ML","DL","Study"],
+        "url": "http://localhost:4000/certification/BigdataCertification/",
         "teaser": null
       }]
