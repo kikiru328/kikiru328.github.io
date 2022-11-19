@@ -20,8 +20,222 @@ last_modified_dat : 2022-11-19
 <font size='2'><span style='color:gray'>Introduction</span></font>  
 <font size='1'><span style='color:gray'>14일 남았다. 필기는 문제 풀이를 위주로 공부를 하고, 실기는 Kaggle 문제를 풀면서 진행해보자. 가지고 있는 필기 문제는 총 444개이므로 매일 40문제를 풀고 복습하면 될 것 같다.</span></font>
 
-### 필기
-필기를 이론 공부처럼 하게 되면 남은 기간으로서는 어려울 것 같다.  
-> 필기는 `주관식 단답형`으로 `10문제`가 출제된다. 각 점수는 3점으로 최대 5개 이상을 맞춰야 한다.  
-~~하지만 너무 어려운건 어쩔 수 없다.~~
+### 단답형 문제 
+<font size='1'> 단답형 문제를 이론 공부처럼 하게 되면 남은 기간으로서는 어려울 것 같다.  </font>
 
+<details>
+<summary>빅데이터 실기 내 단답형 문제는?</summary>
+<div markdown='1'>
+
+> `주관식 단답형`으로 `10문제`가 출제된다. 각 점수는 3점으로 최대 5개 이상을 맞춰야 한다.  
+~~하지만 너무 어려운건 어쩔 수 없다.~~
+</div>
+</details>
+
+<br/>
+
+<font size='3'><span style='color:red'>와 큰일났다.</span></font>
+<font size='1'><span style='color:gray'> [ 2 / 40 ] 이러다간 정말로 떨어지고 말거야</span></font>
+
+#### 단답형 문제와 설명
+
+1. <font size='2'>수집 대상 데이터를 추출, 가공(변환, 정제)하여 데이터 웨어하우스 및 데이터 마트에 저장하는 기술은?</font>
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **ETL**
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    문제에서 힌트를 찾을 수 있다.  
+    "수집 대상 데이터를 <span style='color:red'><u>추출, 가공(변환, 정제)</u></span>하여 데이터 웨어하우스 및 데이터마트에 <span style='color:red'><u>저장</u></span>하는 기술"
+
+    즉, **<font size='3'>ETL</font>** (Extract Transform Load). 말 그대로 다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+2. <font size='2'>사용자의 의사 결정에 도움을 주기 위하여, 기간 시스템의 데이터 베이스에 축적된 데이터를 공통 형식으로 변환해서 관리하는 데이터베이스는 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **데이터웨어하우스**
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+    
+    힌트는 <span style='color:red'><u>사용자의 의사 결정</u></span>, 그리고 <span style='color:red'><u>기간 시스템</u></span>, <span style='color:red'><u>데이터베이스</u></span>이다.
+
+    데이터 웨어하우스는 여러 소스에서 가져온 구조화된 데이터와 반구조화된 데이터를 분석하고 보고하는데 쓰인다.
+    데이터 웨어하우스는 임시 분석과 커스텀 보고서 생성에 적합하다.
+    데이터 웨어하우스는 <u>현재 데이터와 과거 데이터를 모두 한 곳에</u> 저장할 수 있으며, <u>시간 흐름</u>에 따른 장기간의 데이터 동향을 확인 할 수 있도록 설계 되어 있다.
+
+    따라서 데이터 웨어하우스는 비즈니스 인텔레전스 (BI)의 주요한 구성이다.
+
+    </div>
+    </details>
+    </div>
+    </details>
+
+3. <font size='2'>서버, 클라이언트 방식으로 로컬 또는 원경의 수집 대상 시스템과 1:1로 파일과 디렉터리를 동기화하는 응용 프로그램 활용 기술은?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **Rsync**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    서버, 클라이언트는 `linux`도 많이 사용하는데, 그 중 서버환경에서 많이 쓰이는 말이 바로 <span style='color:red'><u>Rsync</u></span>이다.
+    
+    서버, 클라이언트에서 가장 중요한게 무엇일까? 생각해보면 '동기화'가 떠오를 것인데, 이때 사용하는 것이 바로 <span style='color:red'><u>Rsync</u></span>이다.
+    **Rsync** (Remote Synchronization). 즉, `원격 동기화`라는 말이다
+
+    </div>
+    </details>
+    </div>
+    </details>
+
+4. <font size='2'>여러 이벤트 소스로부터 발생한 이벤트를 실시간으로 추출하여 대응되는 액션을 수행하는 처리기술. 이 것을 통해 실시간 상황에서 의미있는 이벤트를 파악하고 가능한 빨리 대응할 수 있는 것은?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **Cep**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    문제에 힌트가 있다.
+    <span style='color:red'><u>실시간</u></span>으로 추출하여 <span style='color:red'><u>수행하는 처리기술</u></span>
+    
+    **CEP** (Complex Event Processing). 즉, "실시간으로 발생하는 이벤트 처리에 대한 결과값을 수집하고 처리하는 기술"을 의미한다.
+
+    </div>
+    </details>
+    </div>
+    </details>
+
+5. <font size='2'>커넥터(Connector)를 사용하여 관계형 데이터베이스(RDBS)와 하둡(Hadoop)간 데이터를 수집하고 전송하는 기술은 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **스쿱(Sqoop)**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    관계형 데이터베이스와 하둡간 데이터를 <span style='color:red'><u>커넥터 : 스쿱</u></span>을 이용해 퍼 나른다고 이해하자.
+    스쿱의 모양은 일정하니, 데이터도 일정해야 푸기 좋다.
+    따라서 스쿱은 `정형 데이터`수집에 활용된다.
+    전송, 수집 등 모든 적재 과정이 `자동화, 병렬`처리 방식을 따른다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+6. <font size='2'>대량의 자료를 처리할 수 있는 대형 컴퓨터 클러스터에서 동작하고 분산 응용 프로그램을 지원하는 오픈 소스 자바 소프트웨어 프레임워크는 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **하둡 (Hadoop)**
+    <font size='1'><span style='color:gray'>내답 : 오라클.. 아니다 이사람아..</span></font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    <span style='color:red'><u>하둡</u></span>은 대용량의 데이터를 적은 비용으로 더 <span style='color:red'><u>빠르게 분석할 수 있는 플랫폼</u></span>이다.
+    <span style='color:red'><u>하둡</u></span>은 여러대의 컴퓨터로 데이터를 분석하고 저장하는 병렬 처리 방식을 따른다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+7. <font size='2'>웹 사이트를 크롤링 하여 구조화 된 데이터를 수집하는 파이썬 기반의 애플리케이션 프레임워크로서 데이터마이닝, 정보처리, 이력 기록 같은 다양한 애플리케이션에 사용되는 비정형 데이터 수집 기술은 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **Scrapy**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    문제를 제대로 읽어보면 힌트가 있다.
+    <span style='color:red'><u>파이썬 기반의 애플리케이션 프레임워크</u></span>.
+    python으로 크롤링을 하게 만든 프레임워크는 대표적으로 <span style='color:red'><u>Scrapy</u></span>이다.
+    </div>
+    </details>
+    </div>
+    </details>
+    
+8. <font size='2'>대규모로 저장된 데이터 안에서 체계적으로 자동적으로 통계적 규칙이나 패턴을 찾아내는 기법은 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **데이터 마이닝**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    <span style='color:red'><u>데이터 마이닝</u></span>은 말그대로 채굴. 대량의 데이터를 분석해서 규칙이나 패턴을 찾는 것.
+    `데이터사이언스`는 수학과 통계학, 프로그래밍을 활용해서 비즈니스에 도움되는 정보를 추출한다.
+    </details>
+    </div>
+    </details>
+
+9. <font size='2'>대용량 실시간 로그 처리를 위해 기존 메시징 시스템과 유사하게 레코드스트림을 발행(Publish), 구독(Subscribe)하는 방식의 분산 스트리밍 플랫폼 기술은 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **아파치 카프카**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    대용량, 대규모 데이터를 빠르게 처리하도록 <span style='color:red'><u>분산 메시징 플랫폼</u></span>이 바로 <span style='color:red'><u>아파치 카프카</u></span>이다.
+    즉, <span style='color:red'><u>카프카</u></span>는 "어플리케이션간에 메세지를 교환하기 위해 사용되는 메세징 시스템". `실시간 로그 처리가 필요하다`  
+
+    작가중에 `카프카`라고 있다. (변신이라는 책을 지은 작가다.) 이 책을 읽어보면, 자신이 벌레로 변신하는 과정을 시간 순서에 맞게 설명을 하는데, 위와 동일한 내용을 갖는다.
+    </details>
+    </div>
+    </details>
+
+10. <font size='2'>다수의 수집 대상 서버로부터 실시간 데이터를 수집하여 분산 시스템에 데이터를 저장하는 대용량 실시간 로그 수집 기술은?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **스크라이브 (Scribe)**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    <span style='color:red'><u>실시간 데이터를 수집</u></span> == <span style='color:red'><u>스크라이브 (Scribe)</u></span>  
+    `Sqoop`과의 차이는 Sqoop은 정형데이터, Scribe는 비정형데이터를 수집한다.  
+    |수집시스템|데이터종류|
+    |:---:|---:|
+    |Sqoop|정형데이터|
+    |Scribe|비정형데이터|
+
+
+    </details>
+    </div>
+    </details>
