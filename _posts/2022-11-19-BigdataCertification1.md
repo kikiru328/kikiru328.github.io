@@ -239,3 +239,21 @@ last_modified_dat : 2022-11-19
     </details>
     </div>
     </details>
+
+11. <font size='2'>대규모 분산 시스템 모니터링을 위해 에이전트로 컬렉터 구성을 통해 데이터를 수집하고, 수집된 데이터를 하둡 파일 시스템(HDFS)에 저장하는 기능을 제공하는 데이터 수집 기술은 무엇인가?</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **척와 (Chukwa)**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    <span style='color:red'><u>대규모 분산 시스템</u></span>이 척와의 가장 큰 특징이다.
+    "대규모 분산 시스템. 모니터링을 위한 기술이다. 에이전트-컬랙터의 관계를 보인다. <span style='color:red'><u>HDFS에 저장하고 실시간 분석을 한다.</u></span>
+    </div>
+    </details>
+    </div>
+    </details>
