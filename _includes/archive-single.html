@@ -10,6 +10,9 @@
   {% assign title = post.title %}
 {% endif %}
 
+
+
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -26,6 +29,7 @@
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
     </h2>
     {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
       {%- include post__taxonomy.html -%}

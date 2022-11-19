@@ -1,6 +1,6 @@
 ---
 title : '[Certification] 빅데이터실기' 
-excerpt : 빅데이터 실기 공부하자
+excerpt : "빅데이터 실기 공부 시작"
 categories: 
  - Certification
 tags: 
@@ -20,7 +20,7 @@ last_modified_dat : 2022-11-18
 # 해야 하는 일.
 <span style='color:gray'><font size='1'>꼭 해야하는 일이라면 해야겠지.  계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까.
 </font></span>  
-<span style='color:red'><font size='1'>이번에는 꼭 따자!</font></span>
+<span style='color:red'><font size='1'><이번에는 꼭 따자!></font></span>
 
 ## 필기
 필기는 자습서를 몇 번 읽고 넘겼다. 자격증만을 공부할 때는 `이게 굳이 필요해?` 라는 생각이였다.  

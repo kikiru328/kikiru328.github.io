@@ -18,8 +18,14 @@ var store = [{
         "teaser": null
       },{
         "title": "[Certification] 빅데이터실기",
-        "excerpt":"하기싫어  ","categories": ["Certification"],
+        "excerpt":"해야 하는 일. 꼭 해야하는 일이라면 해야겠지. 계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까. &lt;이번에는 꼭 따자!&gt; 필기 필기는 자습서를 몇 번 읽고 넘겼다. 자격증만을 공부할 때는 이게 굳이 필요해? 라는 생각이였다. 하지만 실제 업무를 보는 데에 있어서 알고 있는 것과 모르는 것과는 크게 차이가 있었다....","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification/",
+        "teaser": null
+      },{
+        "title": "[Certification] 빅데이터 실기 D-14",
+        "excerpt":"해야 하는 일. 꼭 해야하는 일이라면 해야겠지. 계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까. &lt;이번에는 꼭 따자!&gt; 필기 필기는 자습서를 몇 번 읽고 넘겼다. 자격증만을 공부할 때는 이게 굳이 필요해? 라는 생각이였다. 하지만 실제 업무를 보는 데에 있어서 알고 있는 것과 모르는 것과는 크게 차이가 있었다....","categories": ["Certification"],
+        "tags": ["Certification","BigData","ML","DL","Study"],
+        "url": "http://localhost:4000/certification/BigdataCertification1/",
         "teaser": null
       }]
