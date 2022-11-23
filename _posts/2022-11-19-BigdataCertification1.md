@@ -17,8 +17,10 @@ date : 2022-11-19
 last_modified_dat : 2022-11-19
 ---
 
-<font size='2'><span style='color:gray'>Introduction</span></font>  
-<font size='1'><span style='color:gray'>14일 남았다. 필기는 문제 풀이를 위주로 공부를 하고, 실기는 Kaggle 문제를 풀면서 진행해보자. 가지고 있는 필기 문제는 총 444개이므로 매일 40문제를 풀고 복습하면 될 것 같다.</span></font>
+<font size='2'><span style='color:gray'>Introduction  </span></font>  
+---
+<font size='1'><span style='color:gray'>14일 남았다. 필기는 문제 풀이를 위주로 공부를 하고, 실기는 Kaggle 문제를 풀면서 진행해보자.</span></font>
+<font size='1'><span style='color:gray'>가지고 있는 필기 문제는 총 444개이므로 매일 40문제를 풀고 복습하면 될 것 같다.</span></font>
 
 ### 단답형 문제 
 <font size='1'> 단답형 문제를 이론 공부처럼 하게 되면 남은 기간으로서는 어려울 것 같다.  </font>
