@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-23T14:41:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-23T15:35:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -271,6 +271,171 @@
 
             <p><span style="color:red"><u>대규모 분산 시스템</u></span>이 척와의 가장 큰 특징이다.
 “대규모 분산 시스템. 모니터링을 위한 기술이다. 에이전트-컬랙터의 관계를 보인다. <span style="color:red"><u>HDFS에 저장하고 실시간 분석을 한다.</u></span></p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">스키마 구조 형태를 가지지 않고 고정된 필드에 저장되지 않는 데이터로 SNS 데이터나 오디오/이미지/비디오 데이터가 속하는 유형은 무엇인가?</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>비정형데이터</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>정형화 되지 않아 스키마 구조 형태를 가지지 않는다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">스키마 구조 형태를 가지고 메타데이터를 포함하며, 값과 형식에서 일관성을 가지지 않는 데이터는 무엇인가? (XML, HTML과 같은 웹 데이터가 Noded 형태의 구조를 가진다)</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>반정형데이터</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>구조형태를 가지지만 값과 형식에 일관성이 없는 것이 반정형데이터이다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">W3C에서 개발된, SGML(Standard Generalized Markup Language)문서 형식을 가진, 다른 특수한 목적을 갖는 마크업 언어를 만드는 데 사용하는 다목적 마크업 언어는 무엇인지 쓰시오</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>XML</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p><span style="color:red"><u>XML</u></span>은 <strong>다목적 마크업 언어 (SGML)</strong> 형식을 갖는다. 데이터 표현을 위해 <strong>태그</strong>가 사용되어 사용자 정의가 가능하다. 즉, <span style="color:red"><u>HTML 한계</u></span>를 극복하기 위해 만들어졌다.</p>
+
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">빅데이터 수집 시스템에서 수집 대상이 되는 데이터를 저장 형태 관점에서 분류했을 때 센서데이터, HTTP 트랜잭션, 알람 등과 같이 네트워크를 통해서 실시간으로 전송되는 데이터와 유형은 무엇인가</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>파일데이터 / 데이터베이스 데이터 / 콘텐츠 데이터 / 스트림 데이터</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>문제안에 답이있다.<br />
+<span style="color:red"><u>실시간으로 전송되는 데이터</u></span> 바로 <strong>Stream data</strong>이다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">데이터 베이스에서 자료의 구조, 자료의 표현방법, 자료간의 관계를 형식 언어로 정의한 구조를 무엇이라고 하는가</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>스키마</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p><span style="color:red"><u>스키마</u></span>는 데이터 베이스의 구조와 제약 조건에 관한 전반적인 명세를 기술한 메타데이터의 집단이다. 데이터의 개체, 속성, 관계 및 데이터 조작시 데이터 값들이 갖는 제약 조건 등에 관해 정의된다.<br />
+<em>사용자의 관점에 의해 외부 스키마, 개념 스키마, 내부 스키마로 나뉜다.</em></p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">데이터에 관한 구조화된 데이터로, 다른 데이터를 실행해주는 데이터는 무엇인가</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>메타데이터</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>데이터에 대한 내용, 데이터를 실행해주는 또다른 데이터를 <span style="color:red"><u>메타데이터</u></span>라고 한다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">데이터로부터 잡음을 제거하기 위해 데이터 추세에 벗어나는 값들을 변환하는 기법으로 데이터 집합에 존재하는 잡음으로 인해 거칠게 분포된 데이터를 매끄럽게 만들기 위해 구간화, 군집화 등의 기법을 적용하는 데이터 변환 기술은 무엇인가</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>평활화</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>데이터 변환 기술 중 하나로, 평활화는 <span style="color:red"><u>잡음제거, 추세에서 벗어나는 값 변환</u></span>을 하는 것을 의미한다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">(   )는 데이터를 정해진 구간 내에 들도록 하는 기법으로 최단 근접 분류와 군집화와 같은 거리 측정등을 위해 특히 유용하다</font>
+    <details>   
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>정규화</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p><span style="color:red"><u>정규화 ( Normalization )</u></span>는 정해진 구간내에 데이터 분포를 보는 방법이다.</p>
+          </div>
+</details>
+      </div>
+</details>
+  </li>
+  <li>
+    <font size="2">데이터 비식별화 처리 기법 중 은폐화 방법이라고도 하며, 명확한 값을 숨기기 위하여 데이터의 평균값으로 변환하는 방식으로 랜덤 올림방법, 범위방법, 세분 정보 제한 방법 제어올림 방법의 세부 기술을 가지고 있는 기법은?</font>
+    <details>
+<summary><font size="2"><span style="color:gray">정답</span></font></summary>
+<div>
+
+        <p><strong>범주화 (Categorization)</strong></p>
+
+        <details>
+<summary><font size="2"><span style="color:gray">해설</span></font></summary>
+<div>
+
+            <p>데이터가 포함되어 있는 <span style="color:red"><u>범위</u></span>로 변환하여 데이터를 비식별화 시킨다.</p>
           </div>
 </details>
       </div>
