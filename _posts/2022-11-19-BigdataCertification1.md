@@ -16,7 +16,7 @@ toc_sticky : true
 date : 2022-11-19
 last_modified_dat : 2022-11-19
 ---
-
+# 필기 1장 고놈의 하둡
 <font size='2'><span style='color:gray'>Introduction  </span></font>  
 ---
 <font size='1'><span style='color:gray'>14일 남았다. 필기는 문제 풀이를 위주로 공부를 하고, 실기는 Kaggle 문제를 풀면서 진행해보자.</span></font>
@@ -414,4 +414,4 @@ last_modified_dat : 2022-11-19
     </div>
     </details>
     </div>
-    </details>
+    </details>   
