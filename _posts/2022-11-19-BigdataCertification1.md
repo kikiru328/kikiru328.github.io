@@ -1,6 +1,6 @@
 ---
-title : '[Certification] 빅데이터 실기 D-14' 
-excerpt : "빅데이터 실기 공부 (0/14)"
+title : '[Certification] 빅데이터 실기 단답형 문제 모음' 
+excerpt : "빅데이터 실기 공부"
 categories: 
  - Certification
 tags: 
@@ -414,4 +414,91 @@ last_modified_dat : 2022-11-19
     </div>
     </details>
     </div>
-    </details>   
+    </details>
+
+21. <font size='2'>(   )기법은 개안 식별 정보에 대하여 전체 또는 부분적으로 대체값, (공백, *, 노이즈 등)으로 변환하는 기법이다. 또한 완전 비식별화가 가능하며 원시 데이터의 구조에 대한 변형이 적다</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **데이터 마스킹**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    데이터 마스킹이란 민감한 데이터의 보호를 하려고 하는 기법이다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+
+22. <font size='2'>프라이버시 보호모델에서 주어진 데이터 집합에서 함께 비식별되는 레코드들은(동질집합에서)적어도 1개의 서로 다른 민감한 정보를 가져와 하는 프라이버시 모델은 무엇인가</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **L-다양성**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    주어진 데이터 집합에서 합께 비식별되는 레코드드 (동질집합에서) 적어도 "L"개의 서로 다른 민감한 정보를 가져야하는 성질을 의미한다.
+    <span style='color:red'><u>K-익명성</u></span>에 대한 두 가지 공격, 즉 동질성 공격 및 배경지식에 의한 공격을 방어하기 위한 모델을 의미한다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+23. <font size='2'>(     )는 개인이 자신의 정보를 관리, 통제할 뿐만 아니라 이러한 정보를 신용이나 자산관리 등에 능동적으로 활용하는 일련의 과정을 의미한다. 개인은 데이터 주권인 자기 정보 결정권으로 개인 데이터의 활용과 관리에 대한 통제권을 개인이 가진다는 것이 핵심 원리이다</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **마이데이터**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    이건 문제가 답이다. 외우자.
+    </div>
+    </details>
+    </div>
+    </details>
+
+24. <font size='2'>전통적인 RDBMS와 다른 DBMS를 지칭하기 위한 용어로 데이터 저장에 고정된 테이블 스키마가 필용하지 않고 조인(JOIN)연산을 사용할 수 없으며, 수평적으로 확장이 가능한 DBMS이다</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **비관계형 데이터베이스**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    NoSQL. <span style='color:red'><u>JOIN</u></span>연산이 불가능하다는 단점이 있다.
+    </div>
+    </details>
+    </div>
+    </details>
+
+25. <font size='2'>TEXT</font>
+    <details>
+    <summary><font size='2'><span style='color:gray'>정답</span></font></summary>
+    <div markdown='1'>
+
+    **TEXT**
+
+    <details>
+    <summary><font size='2'><span style='color:gray'>해설</span></font></summary>
+    <div markdown='1'>
+
+    해설
+    </div>
+    </details>
+    </div>
+    </details>    
