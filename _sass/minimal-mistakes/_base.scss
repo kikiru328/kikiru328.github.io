@@ -64,12 +64,12 @@ small,
 }
 
 summary {
-  cursor:pointer;
-  color:rgb(255, 249, 194);
+  cursor: pointer;
+  color: rgb(255, 249, 194);
 }
 
 p {
-  margin-bottom: 1.0em;
+  margin-bottom: 1em;
 }
 
 u,
@@ -84,10 +84,9 @@ ins {
 
 /* devinlife comment: 구글 애드 센스의 아래 바 레이아웃 삭제
  https://github.com/mmistakes/minimal-mistakes/issues/306 */
- ins.adsbygoogle {
+ins.adsbygoogle {
   border-bottom: none !important;
 }
-
 
 del a {
   color: inherit;

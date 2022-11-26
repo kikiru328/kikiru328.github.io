@@ -1,0 +1,96 @@
+I"a<font size="1"><span style="color:gray">Introduction</span></font>
+<font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. ~~사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다~~</span></font>
+
+<h1 id="1장">1장</h1>
+<h2 id="데이터의-유형">데이터의 유형</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">정량적 데이터(정형데이터)</th>
+      <th style="text-align: left">수치로 표현할 수 있는 숫자, 도형, 기호 등의 데이터를 의미.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">정성적 데이터(비정형 데이터)</td>
+      <td style="text-align: left">언어, 문자 등의 정형화되지 않은 데이터. 많은 비용과 기술적 투자가 필요.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="암묵지와-형식지의-상호작용">암묵지와 형식지의 상호작용</h2>
+<p>암묵지가 형식지로 표출되고 연결되면 그 상호작용으로 지식이 형성된다.
+|암묵지|형식지|
+|:—:|—:|
+|공통화|표출화|
+|내면화|연결화|</p>
+
+<font size="2"><span style="color:red">암묵지 : 암묵적으로 인정함. (내면, 공통)</span></font>
+<font size="2"><span style="color:red">형식지 : 말해야 알아들음. (연결, 표출)</span></font>
+
+<h2 id="dikw-피라미드">DIKW 피라미드</h2>
+<p>데이터 : 의미 없음
+정보 : 의미 생김
+지식 : 정보를 분류하고 지식으로 
+지혜 : 창의적 산물</p>
+
+<h2 id="데이터베이스의-특징">데이터베이스의 특징</h2>
+<p>총 4개 [ 정보 축적 및 전달 / 정보 이용 / 정보 관리 / 정보 기술 발전  / 경제 산업적(인프라)]</p>
+
+<p>정보의 축적 및 전달</p>
+<blockquote>
+  <p>기계 가독성 : 대량의 정보를 컴퓨터가 읽음
+검색 가능성 : 다양한 방법으로 정보 검색 가능성
+원격 조작성 : 원거리에서 온라인으로 가능</p>
+</blockquote>
+
+<p>정보 이용 측면</p>
+<blockquote>
+  <p>이용자의 정보 요구에 따라 다양한 정보를 신속하게 획득하고 원하는 정보를 찾을 수 있음</p>
+</blockquote>
+
+<p>정보 관리 측면</p>
+<blockquote>
+  <p>정보를 일정한 질서와 구조에 따라 정리, 저장하고 검색 관리할 수 있게 하여 방대한 양의 정보를 체계적으로 축적하고 추가 갱신함</p>
+</blockquote>
+
+<p>정보 기술 발전 측면</p>
+<blockquote>
+  <p>데이터 베이스는 정보처리 검색 관리 소프트 웨어, 하드웨어, 네트워크 등을 발전하게 끔 함</p>
+</blockquote>
+
+<p>경제 산업적 측면</p>
+<blockquote>
+  <p>다양한 정보를 필요에 따라 신속 제공 이용 할 수 있는 인프라 특성을 보이기 때문.</p>
+</blockquote>
+
+<h2 id="부문별-사회-기반-구조-데이터-베이스">부문별 사회 기반 구조 데이터 베이스</h2>
+<p><del>굳이 알아야할까</del><br />
+물류 : CVO서비스 / CALS / PORT-MIS(항만운영정보) / KROIS(철도운영정보) 
+지리 : GIS(지리정보) / LBS(위치정보) / SIM(공간정보 관리)
+교통 : ITS(지능형교통정보) / 교통정보 / 기초자료 및 통계, 대국민 서비스
+의료 : 의료정보시스템 / PACS 
+교육 : 첨단 정보통신기술을 활요한 교육 정보 개발 / 대학 정보화 / NEIS(교육행정정보)</p>
+
+<h2 id="빅데이터-특징"><span style="color:red"><u>빅데이터 특징</u></span></h2>
+<p><code class="language-plaintext highlighter-rouge">빅데이터 3V</code>
+크기 (Volume) : 대량의 데이터 증가 발생으로 기존 데이터 수집, 관리 한계
+다양성 (Variety) : 비정형 데이터 발생으로 다양한 데이터 형식 증가
+속도 (Velocity) : 실시간 정보 발생으로 데이터 유입, 처리 속도 요구 
+<code class="language-plaintext highlighter-rouge">빅데이터 4V</code>
+가치 (Value) : 데이터 전체 파악, 패턴 발견의 어려움으로 가치의 중요성 강조
+정확성 (Veracity) : 빅데이터 기반의 예측 분석 결과에 대한 신뢰성이 중요.</p>
+
+<h2 id="빅데이터에-거는-기대">빅데이터에 거는 기대</h2>
+<p>산업혁명의 석탄, 철 : 세상 전반에 혁명적 변화
+21세기 원유 : 필요한 정보를 제공하여 생산성을 향상시킬 것.
+렌즈 : 산업 발전에 큰 영향을 줄것 
+플랫폼 : 공동 활용의 목적으로 구축된 유무형의 구조물. 다양한 서드파티 비즈니스에 활용.</p>
+
+<h2 id="빅데이터-변화"><span style="color:red"><u>빅데이터 변화</u></span></h2>
+<p>사전처리 &gt; <span style="color:red"><u>사후처리</u></span>
+표본조사 &gt; <span style="color:red"><u>전수조사</u></span>
+질 &gt; <span style="color:red"><u>양</u></span>
+인과관계 &gt; <span style="color:red"><u>상관관계</u></span></p>
+:ET
