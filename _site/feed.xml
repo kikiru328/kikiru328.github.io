@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-26T18:28:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-26T18:34:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -742,21 +742,54 @@
 <p>도메인 이슈 도출, 분석 목표 수립, 프로젝트 계획, 보유데이터 자산 확인</p>
 
 <h2 id="분석-대상과-그-방법에-따른-4가지-분석-요소-osid">분석 대상과 그 방법에 따른 4가지 분석 요소 (OSID)</h2>
-<p>|분석대상|분석방법|요소|
-|:—:|:—:|:—:|
-|안다|안다|최적화 Optimization|
-|안다|모른다|솔루션 Solution|</p>
-<blockquote>
-  <p>하향식 접근법</p>
-</blockquote>
 
-<p>|분석대상|분석방법|요소|
-|:—:|:—:|:—:|
-|모른다|안다|통찰 Insight|
-|모른다|모른다|발견 Discovery|</p>
-<blockquote>
-  <p>상향식 접근법</p>
-</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">분석대상</th>
+      <th style="text-align: center">분석방법</th>
+      <th style="text-align: center">요소</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">안다</td>
+      <td style="text-align: center">안다</td>
+      <td style="text-align: center">최적화 Optimization</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">안다</td>
+      <td style="text-align: center">모른다</td>
+      <td style="text-align: center">솔루션 Solution</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">하향식 접근법</code></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">분석대상</th>
+      <th style="text-align: center">분석방법</th>
+      <th style="text-align: center">요소</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">모른다</td>
+      <td style="text-align: center">안다</td>
+      <td style="text-align: center">통찰 Insight</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">모른다</td>
+      <td style="text-align: center">모른다</td>
+      <td style="text-align: center">발견 Discovery</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">상향식 접근법</code></p>
 
 <h2 id="5단계-빅데이터-분석-방법론">5단계 빅데이터 분석 방법론</h2>
 <p>1단게 : 분석기획 &gt; 비즈니스 이해, 프로젝트 정의 및 계획 수립, 프로젝트 위험 계획 수립  <br />
@@ -767,7 +800,43 @@
 
 <h2 id="분석과제-발굴-방법론">분석과제 발굴 방법론</h2>
 <p>분석 대상 안다 &gt; 하향식 &gt; 문제 탐색 &gt; 문제 정의 &gt; 해결방안 탐색 &gt; 타당성 검토<br />
-분석 대상 모른다 &gt; 상향식 &gt; 지도 비지도 학습 &gt; 프로토 타입</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
+분석 대상 모른다 &gt; 상향식 &gt; 지도 비지도 학습 &gt; 프로토 타입</p>
+
+<h2 id="하향식-분석과제-발굴-방법론">하향식 분석과제 발굴 방법론</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">문제 탐색 단계</th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">규제와감사</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">업무</td>
+      <td style="text-align: center">제품</td>
+      <td style="text-align: center">고객</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">지원인프라</td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">분석기획 발굴의 범위 확장</code>:
+거시적관점, 경쟁자 분석, 시장의 니즈, 역량 분석<br />
+<code class="language-plaintext highlighter-rouge">외부 참조 모델 기반의 문제 탐색</code><br />
+<code class="language-plaintext highlighter-rouge">분석 유스케이스</code></p>
+</blockquote>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
 <p><span style="color:gray"><font size="1">꼭 해야하는 일이라면 해야겠지.  계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까.
 </font></span><br />
 <span style="color:red"><font size="1">&lt;이번에는 꼭 따자!&gt;</font></span></p>
