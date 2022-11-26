@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-26T18:02:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-26T18:28:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -674,7 +674,7 @@
 통찰력있는 분석, 설득력 있는 분석, 다분야 간 협력</p>
 </blockquote>
 
-<h1 id="가치-패러다임의-변화">가치 패러다임의 변화</h1>
+<h2 id="가치-패러다임의-변화">가치 패러다임의 변화</h2>
 <blockquote>
   <p><code class="language-plaintext highlighter-rouge">디지털화</code>:
 아날로그 &gt; 디지털 변화에 의한 가치 창출 원천<br />
@@ -684,7 +684,90 @@
 사물인터넷 연결이 증가하고 복잡<br />
 복잡한 연결을 얼마나 효과적이고 신뢰있게
 <u>데이터 사이언스 역량에 따라 좌우</u></p>
-</blockquote>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
+</blockquote>
+
+<h2 id="분석-준비도-평가">분석 준비도 평가</h2>
+<p><code class="language-plaintext highlighter-rouge">분석 업무 파악</code> <code class="language-plaintext highlighter-rouge">분석 인력 및 조직</code> <code class="language-plaintext highlighter-rouge">분석 기법</code> <code class="language-plaintext highlighter-rouge">분석 데이터</code> <code class="language-plaintext highlighter-rouge">분석 문화</code> <code class="language-plaintext highlighter-rouge">IT인프라</code></p>
+
+<h2 id="분석-성숙도-평가">분석 성숙도 평가</h2>
+<p>1단계 : 분석시작, 환경과 시스템 구축<br />
+2단계 : 분석 결과를 업무에 적용<br />
+3단계 : 전사 차원에서 분석관리, 공유<br />
+4단계 : 분석을 지노하시켜 혁신 및 성과 향상에 기여</p>
+
+<h2 id="분석-준비도-및-성숙도-진단-결과-4분면">분석 준비도 및 성숙도 진단 결과 4분면</h2>
+<p>|분면|준비도|성숙도|내용|
+|:—:|:—:|:—:|:—|
+|확산형|높음|높음|지속적 확산 가능 기업|
+|정착형|낮음|높음|분석기법 제한적 사용, 분석 정착 필요|
+|도입형|높음|낮음|준비도가 높아 바로 도입 가능|
+|준비형|낮음|낮음|사전 준비가 필요|</p>
+
+<font size="5">`정착`|`확산`</font>
+<font size="5">`준비`|`도입`</font>
+
+<h2 id="분석-조직의-유형">분석 조직의 유형</h2>
+<p><code class="language-plaintext highlighter-rouge">DSCoE</code> 위치가 중요<br />
+집중구조 : DSCoE가 마지막.<br />
+기능구조 : 부서가 다 분석함
+분산구조 : 부서가 모두 DSCoE포함. DSCoE 분산</p>
+
+<h2 id="빅데이터-플랫폼-개념도">빅데이터 플랫폼 개념도</h2>
+<p><code class="language-plaintext highlighter-rouge">데이터소스</code> &gt; <span style="color:red"><u>`데이터수집` &gt; `데이터 저장/처리/관리`</u></span> &gt; <span style="color:blue"><u>`데이터 분석` </u></span>&gt; <code class="language-plaintext highlighter-rouge">데이터 활용</code></p>
+
+<p><span style="color:red">관리 플랫폼</span>
+ <span style="color:blue">분석 플랫폼</span></p>
+
+<h2 id="에코시스템">에코시스템</h2>
+<p>빅데이터는 여러가지 기술 및 프레임워크, 솔루션 등을 이용해 플랫폼을 완성하게 되는데 이를 <code class="language-plaintext highlighter-rouge">에코시스템</code>라고 한다.</p>
+
+<h2 id="머신러닝-vs-딥러닝">머신러닝 vs 딥러닝</h2>
+<p>머신러닝 : 데이터 분석, 결정을 내리기 위핸 학습한 내용을 적용<br />
+딥러닝 : 인공신경망 분석. 인간의 뇌처럼 학습함.</p>
+
+<h2 id="미래의-인공지능-활용-분야">미래의 인공지능 활용 분야</h2>
+<p>자율주행, 스마트홈, 메디컬 케어, 인프라, 스마트 농업, 업무 환경 변화</p>
+
+<h2 id="마이데이터"><span style="color:red"><u>마이데이터</u></span></h2>
+<p>마이데이터 :
+    정보의 주체가 개인 정보 권한을 갖고 관리할 수 있게 하자
+    개인정보에 대한 인간 중심의 비전을 향해 나아가는 것을 목표.
+    공정하고 지속 가능하며 변영하는 디지털 사회의 조건</p>
+
+<p>개념 :
+<code class="language-plaintext highlighter-rouge">자기정보 결정권</code> + <code class="language-plaintext highlighter-rouge">데이터 경제 활성화</code><br />
+<code class="language-plaintext highlighter-rouge">데이터통제</code> <code class="language-plaintext highlighter-rouge">데이터제공</code> <code class="language-plaintext highlighter-rouge">데이터활용</code></p>
+
+<h2 id="빅데이터-분석-기획의-능력-단위-요소">빅데이터 분석 기획의 능력 단위 요소</h2>
+<p>도메인 이슈 도출, 분석 목표 수립, 프로젝트 계획, 보유데이터 자산 확인</p>
+
+<h2 id="분석-대상과-그-방법에-따른-4가지-분석-요소-osid">분석 대상과 그 방법에 따른 4가지 분석 요소 (OSID)</h2>
+<p>|분석대상|분석방법|요소|
+|:—:|:—:|:—:|
+|안다|안다|최적화 Optimization|
+|안다|모른다|솔루션 Solution|</p>
+<blockquote>
+  <p>하향식 접근법</p>
+</blockquote>
+
+<p>|분석대상|분석방법|요소|
+|:—:|:—:|:—:|
+|모른다|안다|통찰 Insight|
+|모른다|모른다|발견 Discovery|</p>
+<blockquote>
+  <p>상향식 접근법</p>
+</blockquote>
+
+<h2 id="5단계-빅데이터-분석-방법론">5단계 빅데이터 분석 방법론</h2>
+<p>1단게 : 분석기획 &gt; 비즈니스 이해, 프로젝트 정의 및 계획 수립, 프로젝트 위험 계획 수립  <br />
+2단계 : 데이터 준비 &gt; 필요 데이터 정의, 데이터 스토어 설계, 데이터 수집 및 정합성 점검<br />
+3단계 : 데이터 분석 &gt; 분석용 데이터 준비, 텍스트 분석, 탐색적 분석, 모델링, 모델 평가 및 검증<br />
+4단계 : 시스템 구현 &gt; 설계 및 구현, 시스템 테스티 및 운영<br />
+5단계 : 평가 및 전개 &gt; 모델 발전 계획 수립, 프로젝트 평가 및 보고</p>
+
+<h2 id="분석과제-발굴-방법론">분석과제 발굴 방법론</h2>
+<p>분석 대상 안다 &gt; 하향식 &gt; 문제 탐색 &gt; 문제 정의 &gt; 해결방안 탐색 &gt; 타당성 검토<br />
+분석 대상 모른다 &gt; 상향식 &gt; 지도 비지도 학습 &gt; 프로토 타입</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
 <p><span style="color:gray"><font size="1">꼭 해야하는 일이라면 해야겠지.  계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까.
 </font></span><br />
 <span style="color:red"><font size="1">&lt;이번에는 꼭 따자!&gt;</font></span></p>
