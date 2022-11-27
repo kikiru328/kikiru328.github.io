@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-26T18:47:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T09:53:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -535,7 +535,7 @@
       </div>
 </details>
   </li>
-</ol>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 공부]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
+</ol>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 공부]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
 <font size="1"><br /></font>
 <font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
 <font size="1"><br /></font>
@@ -713,10 +713,10 @@
 분산구조 : 부서가 모두 DSCoE포함. DSCoE 분산</p>
 
 <h2 id="빅데이터-플랫폼-개념도">빅데이터 플랫폼 개념도</h2>
-<p><code class="language-plaintext highlighter-rouge">데이터소스</code> &gt; <span style="color:red"><u>`데이터수집` &gt; `데이터 저장/처리/관리`</u></span> &gt; <span style="color:blue"><u>`데이터 분석` </u></span>&gt; <code class="language-plaintext highlighter-rouge">데이터 활용</code></p>
+<p><code class="language-plaintext highlighter-rouge">데이터소스</code> &gt; <span style="color:red"><u>`데이터수집` &gt; `데이터 저장/처리/관리`</u></span> &gt; <span style="color:skyblue"><u>`데이터 분석` </u></span>&gt; <code class="language-plaintext highlighter-rouge">데이터 활용</code></p>
 
 <p><span style="color:red">관리 플랫폼</span>
- <span style="color:blue">분석 플랫폼</span></p>
+ <span style="color:skyblue">분석 플랫폼</span></p>
 
 <h2 id="에코시스템">에코시스템</h2>
 <p>빅데이터는 여러가지 기술 및 프레임워크, 솔루션 등을 이용해 플랫폼을 완성하게 되는데 이를 <code class="language-plaintext highlighter-rouge">에코시스템</code>라고 한다.</p>
@@ -848,7 +848,112 @@
 시행착오 해결법</p>
 </blockquote>
 
-<p><img src="https://user-images.githubusercontent.com/60537388/204082496-5c9cb835-81fc-4b71-a42a-a1a499dfa474.png" alt="image" width="20%" height="20%" /></p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
+<p><img src="https://user-images.githubusercontent.com/60537388/204082496-5c9cb835-81fc-4b71-a42a-a1a499dfa474.png" alt="image" width="20%" height="20%" /></p>
+<blockquote>
+  <p>시급성우선 : 3421<br />
+난이도우선 : 3124</p>
+</blockquote>
+
+<h2 id="데이터-유형에-따른-데이터-수집-방법">데이터 유형에 따른 데이터 수집 방법</h2>
+<p>|데이터|종류|수집|
+|:—:|:—:|:—:|
+|정형|DBMS|ETL|
+|반정형|HTML,XML,JSON 등|웹크롤링,API|
+|비정형|소셜데이터,문서,이미지 등|웹크롤링,스트리밍|</p>
+
+<h2 id="데이터-축소-및-차원-축소"><span style="color:red"><u>데이터 축소 및 차원 축소</u></span></h2>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">데이터 축소</code> :
+같은 정보량을 가지면서 데이터의 크기를 줄이는 방법. 분석의 효율성을 높이기 위해 필요한 변환 과정.<br />
+<code class="language-plaintext highlighter-rouge">차원축소</code> :
+데이터의 잡음을 제거. 데이터셋을 다루기 쉽게 함. 관계없거나 중복되는 속성을 제거하는 작업으로 최소 집합을 찾아냄<br />
+<code class="language-plaintext highlighter-rouge">데이터 압축</code>:
+데이터 인코딩, 변환과정을 이용해 축소. 무손실압축기법 이라고 하며 BMP포맷있음. 손실압축기법은 JPEG포맷</p>
+</blockquote>
+
+<h2 id="스타스키마">스타스키마</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">장점</code> :
+복잡도가 낮아 이해 쉬움. 조인 테이블 적음<br />
+<code class="language-plaintext highlighter-rouge">단점</code> :
+차원 테이블들의 비정규화로 데이터 중복 발생, 상대적으로 데이터 적재에 시간 많이 소요.</p>
+</blockquote>
+
+<h2 id="스노우플레이크-스타스키마">스노우플레이크 스타스키마</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">장점</code> :
+데이터 중복 제거되면서 데이터 적재시 소요시간 빠름<br />
+<code class="language-plaintext highlighter-rouge">단점</code> :
+복잡성 증가 &gt; 조인 테이블 개수 증가. 쿼리 난이도 증가</p>
+</blockquote>
+
+<h2 id="etl-프로세스">ETL 프로세스</h2>
+<p>데이터 원천으로 데이터를 <span style="color:red"><u>추출(Extraction)</u></span>, <span style="color:red"><u>변환(Transform)</u></span>, <span style="color:red"><u>적재(Load)</u></span>하는 작업이다.</p>
+
+<font size="1"><span style="color:gray">데이터의 원천으로 부터 데이터를 추출 및 변환하여 운영 데이터 스토어, 데이터 웨어하우스, 데이터 마트에 데이터를 적재</span></font>
+
+<h2 id="etl-vs-cdc">ETL vs CDC</h2>
+<p>ETL : 정해진 시점<br />
+CDC : 실시간 혹은 준 실시간</p>
+
+<h2 id="ods-프로세스">ODS 프로세스</h2>
+<p>데이터에 추가 작업을 하기 위해 다양한 원천 데이터로부터 데이터를 추출 통합한 데이터 베이스 <br />
+Operatinal Data Store</p>
+
+<h2 id="데이터-웨어하우스-vs-데이터-레이크">데이터 웨어하우스 vs 데이터 레이크</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">데이터 웨어하우스</code> :
+표준화된 SQL, 정제된 데이터, 저장 처리에 비용 높음, 빠르고 간편, 접근성 제한적, 안전, 동시성과 통합성<br />
+<code class="language-plaintext highlighter-rouge">데이터 레이크</code> :
+SQL유사 시스템 (HBase, NoSQL), Spark, Map Reduce, YARN, Presto로 액세스, Raw데이터, 저렴한 비용 처리<br />
+접근성 매우 높음, 자유로움, 도구 및 저장용량 확장성 좋음, <code class="language-plaintext highlighter-rouge">스트리밍</code>, <code class="language-plaintext highlighter-rouge">빅데이터 분석 솔루션과 연동 편리</code></p>
+</blockquote>
+
+<h2 id="하둡">하둡</h2>
+<p><del><span style="color:red"><u>개같은 하둡</u></span></del></p>
+<h3 id="하둡이란">하둡이란</h3>
+<p>하둡은 하나의 좋은 컴퓨터를 이용하여 데이터를 처리하는 대신, 적당한 성능의 범용 컴퓨터 여러대를 클러스터화여 데이터를 처리하는 것을 목표로 하는 것을 의미한다. 즉, <code class="language-plaintext highlighter-rouge">하둡은 큰 크기의 데이터를 여러대의 컴퓨터에서 병렬로 동시에 처리하여 처리 속도를 높이는 것을 목적으로 하는 분산처리 오픈소스 프레임워크</code>.</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">장점</code> : 
+오픈소스, 장비 추가에 용이, 일부 장비의 장애시에도 전체에 영향이 미미,<br />
+저렴하고 비용대비 빠르게 데이터 처리, 오프라인 배치 프로세싱에 최적화
+<code class="language-plaintext highlighter-rouge">단점</code> :
+HDFS에 저장된 데이터를 변경할 수 없음. 실시간 데이터 분석과 같이 신속하게 처리해야 하는 작업에는 부적합</p>
+</blockquote>
+
+<h3 id="수집-및-연결-프레임워크">수집 및 연결 프레임워크</h3>
+<h4 id="스쿱-sqoop">스쿱 Sqoop</h4>
+<blockquote>
+  <p>하둡과 데이터베이스 간 <span style="color:red"><u>데이터 이동을 간편하게</u></span><br />
+하둡에서 데이터를 가져오거나 올릴 때 사용<br />
+하둡에서 제공하는 데이터베이스 연결용 <span style="color:red"><u>맵 인풋 포매터</u></span>를 사용</p>
+</blockquote>
+
+<h4 id="플럼-flume">플럼 Flume</h4>
+<blockquote>
+  <p><span style="color:red"><u>반정형데이터(로그 데이터)수집</u></span><br />
+<span style="color:red"><u>비정형데이터 수집</u></span><br />
+대용량 로그 데이터를 안정성, 가용성을 바탕으로 효율적 수집<br />
+다양한 소스로부터 데이터를 수집, <code class="language-plaintext highlighter-rouge">다양한 방식</code>으로 데이터를 전송 
+<span style="color:red"><u>최근 국내의 빅데이터 솔루션에서 수집 부분 채택</u></span></p>
+</blockquote>
+
+<h4 id="카프카-kafka">카프카 Kafka</h4>
+<blockquote>
+  <p>데이터 <span style="color:red"><u>스트림 실시간 관리</u></span>를 위한 <code class="language-plaintext highlighter-rouge">스트리밍</code> 플랫폼<br />
+<span style="color:red"><u>발행 / 구독</u></span>모델로 구성<br />
+메세지를 파일에 저장
+다수의 카프카 서버에서 메세지 분산 처리</p>
+</blockquote>
+
+<h4 id="스크라이브-scribe">스크라이브 Scribe</h4>
+<blockquote>
+  <p><span style="color:red"><u>반정형데이터(로그 데이터)수집</u></span><br />
+<span style="color:red"><u>비정형데이터 수집</u></span><br />
+<code class="language-plaintext highlighter-rouge">실시간 스트리밍 로그 수집</code><br />
+<span style="color:skyblue"><u>페이스북</u></span>자체 ㅈ</p>
+</blockquote>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기</title><link href="http://localhost:4000/certification/BigdataCertification/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기" /><published>2022-11-18T00:00:00+09:00</published><updated>2022-11-18T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification/"><![CDATA[<h1 id="해야-하는-일">해야 하는 일.</h1>
 <p><span style="color:gray"><font size="1">꼭 해야하는 일이라면 해야겠지.  계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까.
 </font></span><br />
 <span style="color:red"><font size="1">&lt;이번에는 꼭 따자!&gt;</font></span></p>

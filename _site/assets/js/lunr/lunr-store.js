@@ -20,13 +20,13 @@ var store = [{
         "title": "[Certification] 빅데이터실기",
         "excerpt":"해야 하는 일. 꼭 해야하는 일이라면 해야겠지. 계속해서 떨어지는거는 내가 공부를 안해서 그런거고 또 절박하지 않아서 그런 거니까. &lt;이번에는 꼭 따자!&gt; 필기 필기는 자습서를 몇 번 읽고 넘겼다. 자격증만을 공부할 때는 이게 굳이 필요해? 라는 생각이였다. 하지만 실제 업무를 보는 데에 있어서 알고 있는 것과 모르는 것과는 크게 차이가 있었다....","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
-        "url": "http://localhost:4000/certification/BigdataCertification1/",
+        "url": "http://localhost:4000/certification/BigdataCertification/",
         "teaser": null
       },{
         "title": "[Certification] 빅데이터실기 1장 정리본",
         "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 데이터의 유형 종류 내용 정량적 데이터(정형데이터) 수치로 표현할 수 있는 숫자, 도형, 기호 등의 데이터를 의미. 정성적 데이터(비정형 데이터) 언어, 문자...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
-        "url": "http://localhost:4000/certification/BigdataCertification/",
+        "url": "http://localhost:4000/certification/BigdataCertification1/",
         "teaser": null
       },{
         "title": "[Certification] 빅데이터 실기 단답형 문제 모음",
