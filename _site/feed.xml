@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T10:21:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T10:44:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -542,7 +542,90 @@
 <font size="1"><span style="color:gray">(사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다)</span></font>
 <p><br /></p>
 
-<p>##</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
+<h2 id="데이터-전처리">데이터 전처리</h2>
+<p>데이터 분석을 위한 <code class="language-plaintext highlighter-rouge">필수과정</code>으로 데이터를 정제한 뒤, 가공, 통합, 정리 변환을 통해 데이터 분석 변수를 처리하는 등의 작업으로 <span style="color:red"><u>데이터 분석 결과의 신뢰도를 높이기 위한 과정</u></span></p>
+
+<h2 id="데이터-정제">데이터 정제</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">정제</code> :
+결측값, 잡음, 이상값 등 데이터 오류의 분석 작업 <code class="language-plaintext highlighter-rouge">전</code>에 처리<br />
+<code class="language-plaintext highlighter-rouge">결측값</code> :
+분석 대상에서 제외 또는 보완 처리<br />
+<code class="language-plaintext highlighter-rouge">이상값</code> :
+삭제, 대체, 스케일링, 정규화 등</p>
+</blockquote>
+
+<h2 id="데이터-결측값">데이터 결측값</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">유형</code><br />
+<code class="language-plaintext highlighter-rouge">비무작위</code> :
+결측값에 영향 미침<br />
+<code class="language-plaintext highlighter-rouge">무작위</code> :
+연관은 있음. 결과에 영향 없음<br />
+<code class="language-plaintext highlighter-rouge">완전 무작위</code> :
+연관도 없고 완전히 무관</p>
+
+  <p><code class="language-plaintext highlighter-rouge">방법</code><br />
+<code class="language-plaintext highlighter-rouge">평균대체</code> :
+대푯값으로 대체
+<code class="language-plaintext highlighter-rouge">단순확률대체</code> :
+단순확률값으로 대체
+<code class="language-plaintext highlighter-rouge">보삽법</code> :
+비슷한 시기, 다른 해의 데이터를 참고한 평균값으롱
+<code class="language-plaintext highlighter-rouge">평가치 추정</code> :
+맥락적 행렬식 자료를 고려하여 원래의 값 추정
+<code class="language-plaintext highlighter-rouge">다중 대치</code> :
+결측치 추정을 통해 완성한 데이터셋 이용
+<code class="language-plaintext highlighter-rouge">완전 정보 최대 우도법</code> :
+최대우도 바탕으로 가중평균 구성</p>
+</blockquote>
+
+<h2 id="데이터-이상값">데이터 이상값</h2>
+<p>|종류|내용|
+|:—:|:—|
+|분산|정규분포 95.7% 외의 값|
+|우도함수|우도확률 값 외의 값|
+|근접이웃기반 이상치탐지|정상값 거리와 거리가 먼 값|
+|밀도기반|상대적 밀도 값이 먼 값|
+|군집|특정 군집에 속하지 않은 값|
+|사분위수(IQR)|양쪽 말단 1.5분위수 벗어나는 값|</p>
+
+<h2 id="변수선택">변수선택</h2>
+<p>종속 변수에 영향을 미칠 독립변수를 선택하는 과정을 의미.<br />
+<code class="language-plaintext highlighter-rouge">머신러닝 알고리즘 학습속도 향상</code> <code class="language-plaintext highlighter-rouge">모델 해석 용이</code> <code class="language-plaintext highlighter-rouge">모델 정확도 향상</code> <code class="language-plaintext highlighter-rouge">과적합 감소, 성능 향상</code></p>
+
+<h2 id="단계적-변수-선택-방법">단계적 변수 선택 방법</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">전진선택법</code> :
+가장 많은 영향을 줄 것 같은 변수부터 추가 (AIC작은 놈)<br />
+<code class="language-plaintext highlighter-rouge">후진제거법</code> :
+가장 적은 영향을 줄 것 같은 변수부터 제거 (AIC 큰 놈)<br />
+<code class="language-plaintext highlighter-rouge">단계적 방법</code> :
+전진선택법, 후진제거법 둘다 사용해서 AIC 낮아지는 모델 완성</p>
+</blockquote>
+
+<h2 id="차원-축소">차원 축소</h2>
+<p>변수의 수 증가로 차원이 커지면서 모델링 안좋아짐. <span style="color:red"><u>차원의 저주</u></span><br />
+공간은 증가하는데 비해 데이터 수의 변화가 없을 경우 불필요한게 많으니 차원 축소 필요</p>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">PCA 주성분분석</code> :
+변수간 <code class="language-plaintext highlighter-rouge">상관관계</code>파악하고 <code class="language-plaintext highlighter-rouge">선형 연관성이 없는 저차원</code>으로 축소<br />
+<code class="language-plaintext highlighter-rouge">LDA 선형판별분석</code> :
+지도학습을 통해 데이터 결정경계를 만들어 데이터 분류.<br />
+다변량 정규분포를 따르는 데이터 분포. 파라미터는 평균과 공분산이어야 함. <br />
+<code class="language-plaintext highlighter-rouge">t-SNE t-분포 확률적 임베딩</code>:
+고차원의 데이터 거리를 <code class="language-plaintext highlighter-rouge">보존</code>, 그 관계를 저차원으로 축소<br />
+하나의 점을 선택하여 다른 점들 간의 거리를 측정한 뒤 이를 T분포 그래프에 표현<br />
+<code class="language-plaintext highlighter-rouge">SVD 특잇값 분해</code>:
+행렬의 크기와 모양에 상관없이 적용할 수 있는 방법</p>
+</blockquote>
+
+<h2 id="변수-변환">변수 변환</h2>
+<p>범주형 데이터 변환 : 범주형 변수를 숫자로 변환<br />
+연속 &gt; 범주 : 연속형 데이터를 범주형으로<br />
+비정형 데이터 변환 : 단어의 빈도수 등을 이용해 정형화<br />
+더미 변수화 : 어떤 특징의 존재 여부를 1 또는 0<br />
+스케일링 : <span style="color:red"><u>최소-최대 표준화, 정규화</u></span></p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터실기 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터실기 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
 <font size="1"><br /></font>
 <font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
 <font size="1"><br /></font>

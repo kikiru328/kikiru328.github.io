@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Certification] 빅데이터실기 2장 정리본",
-        "excerpt":"Introduction   빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.   (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다)     ##  ","categories": ["Certification"],
+        "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 데이터 전처리 데이터 분석을 위한 필수과정으로 데이터를 정제한 뒤, 가공, 통합, 정리 변환을 통해 데이터 분석 변수를 처리하는 등의 작업으로 데이터...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification2/",
         "teaser": null
