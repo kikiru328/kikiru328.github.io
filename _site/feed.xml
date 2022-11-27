@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T13:43:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T15:18:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -567,15 +567,15 @@
 
   <p><code class="language-plaintext highlighter-rouge">방법</code><br />
 <code class="language-plaintext highlighter-rouge">평균대체</code> :
-대푯값으로 대체
+대푯값으로 대체<br />
 <code class="language-plaintext highlighter-rouge">단순확률대체</code> :
-단순확률값으로 대체
+단순확률값으로 대체<br />
 <code class="language-plaintext highlighter-rouge">보삽법</code> :
-비슷한 시기, 다른 해의 데이터를 참고한 평균값으롱
+비슷한 시기, 다른 해의 데이터를 참고한 평균값으로<br />
 <code class="language-plaintext highlighter-rouge">평가치 추정</code> :
-맥락적 행렬식 자료를 고려하여 원래의 값 추정
+맥락적 행렬식 자료를 고려하여 원래의 값 추정<br />
 <code class="language-plaintext highlighter-rouge">다중 대치</code> :
-결측치 추정을 통해 완성한 데이터셋 이용
+결측치 추정을 통해 완성한 데이터셋 이용<br />
 <code class="language-plaintext highlighter-rouge">완전 정보 최대 우도법</code> :
 최대우도 바탕으로 가중평균 구성</p>
 </blockquote>
