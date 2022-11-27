@@ -23,16 +23,22 @@ var store = [{
         "url": "http://localhost:4000/certification/BigdataCertification/",
         "teaser": null
       },{
-        "title": "[Certification] 빅데이터실기 1장 정리본",
+        "title": "[Certification] 빅데이터분석기사 1장 정리본",
         "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 데이터의 유형 종류 내용 정량적 데이터(정형데이터) 수치로 표현할 수 있는 숫자, 도형, 기호 등의 데이터를 의미. 정성적 데이터(비정형 데이터) 언어, 문자...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification1/",
         "teaser": null
       },{
-        "title": "[Certification] 빅데이터실기 2장 정리본",
+        "title": "[Certification] 빅데이터분석기사 2장 정리본",
         "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 데이터 전처리 데이터 분석을 위한 필수과정으로 데이터를 정제한 뒤, 가공, 통합, 정리 변환을 통해 데이터 분석 변수를 처리하는 등의 작업으로 데이터...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification2/",
+        "teaser": null
+      },{
+        "title": "[Certification] 빅데이터분석기사 3장 정리본",
+        "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 통계 기반 분석 기술 통계 분석 : 데이터의 특성을 요약, 집계하는 것. t-검정 : 두 집단 간의 평균을 비교하는 모수적 통계...","categories": ["Certification"],
+        "tags": ["Certification","BigData","ML","DL","Study"],
+        "url": "http://localhost:4000/certification/BigdataCertification3/",
         "teaser": null
       },{
         "title": "[Certification] 빅데이터 실기 단답형 문제 모음",

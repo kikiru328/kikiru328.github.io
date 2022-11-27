@@ -1,0 +1,191 @@
+I"2/<font size="1"><span style="color:gray">Introduction</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">(사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다)</span></font>
+
+<h2 id="통계-기반-분석">통계 기반 분석</h2>
+<p>기술 통계 분석 : 데이터의 특성을 요약, 집계하는 것.<br />
+t-검정 : 두 집단 간의 평균을 비교하는 <code class="language-plaintext highlighter-rouge">모수적 통계 방법</code><br />
+anova : 세 개 이상의 집단 간 평균을 비교 할 때 사용하는 통게적 방법이다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">요인</th>
+      <th style="text-align: center">제곱합</th>
+      <th style="text-align: center">제곱평균</th>
+      <th style="text-align: center">F</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">집단 간</td>
+      <td style="text-align: center">SSR</td>
+      <td style="text-align: center">MSR = SSR/k-1</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">집단 내</td>
+      <td style="text-align: center">SSE</td>
+      <td style="text-align: center">MSE = SSE/n-k</td>
+      <td style="text-align: center">MSR/MSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">총</td>
+      <td style="text-align: center">SST</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>카이제곱검정 : 변수가 <code class="language-plaintext highlighter-rouge">범주형</code>일 때 사용하는 통계적 방법</p>
+
+<h2 id="정형-데이터-마이닝">정형 데이터 마이닝</h2>
+<p>기술 : 의미를 단순하게 기술  (쓰는거임 암튼 쓰는거임)<br />
+분류 : 이미 정의된 집합으로 분류<br />
+추정 : 데이터에 기초해 알려지지 않은 값을 추정<br />
+예측 : 과거의 데이터로 미래 예측<br />
+연관분석 : 데이터간 유용한 규칙을 발견<br />
+군집 : 데이터를 유사한 특성을 지닌 몇 개의 소그룹으로 분할</p>
+
+<h2 id="비정형-데이터-마이닝">비정형 데이터 마이닝</h2>
+<p>텍스트 마이닝 : 대규모의 비구조적인 문서에서 의미있는 정보를 추출<br />
+오피니언 마이닝 : 텍스트에서 추출된 감정 등의 <code class="language-plaintext highlighter-rouge">주관적인</code> 정보를 정량화하는 것<br />
+사회연결망 분석 : 특정 네트워크의 구조나 노드 간의 관계를 분석하는 것</p>
+
+<h2 id="분석-모형-유형">분석 모형 유형</h2>
+<p>지도 학습 : 레이블이 있는 데이터를 통해 모델을 학습시키는 방법으로, 분류와 회귀에 사용된다<br />
+비지도 학습 : 레이블이 없는 데이터를 통해 모델을 학습하는 방법. (군집, 차원축소, 연관규칙, 이상치탐지)<br />
+준지도 학습 : 레이블이 있는 데이터와 레이블이 없는 데이터를 모두 사용해 모델을 학습시키는 방법<br />
+강화 학습 : 시스템이 어떤 행동을 할 때 마다 보상 및 패널티를 줘서 시스템이 받는 보상이 최대가 되는 방향으로 학습을 진행하는 방법.</p>
+
+<h2 id="분석-모형-종류">분석 모형 종류</h2>
+<blockquote>
+  <p><span style="color:skyblue"><u>지도학습</u></span><br />
+<code class="language-plaintext highlighter-rouge">분류</code> :
+로지스틱 회귀분석, KNN, SVM, 신경망 모형, 의사결정 트리<br />
+<code class="language-plaintext highlighter-rouge">회귀</code> :
+라쏘, 릿지, 신경망 모형, SVR</p>
+
+  <p><span style="color:skyblue"><u>비짖도학습</u></span><br />
+<code class="language-plaintext highlighter-rouge">군집</code> :
+k-평균, DBSCAN, SOM<br />
+<code class="language-plaintext highlighter-rouge">차원축소</code> :
+PCA, LDA, SVD, MDS<br />
+<code class="language-plaintext highlighter-rouge">연관분석</code> :
+FP-Tree, Apiori</p>
+</blockquote>
+
+<h2 id="분석-모형-구축-절차">분석 모형 구축 절차</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">폭포수 모델</code><br />
+장점 : 체계적, 순차적 진행, 전체과정 이해 쉬움, 적용사례 많음, 문서 관리 용이<br />
+단점 : 고객의 요구사항 반영 빡셈, 문제 해결 및 수정 비용 큼, 피드백 반복 빡침</p>
+
+  <p><code class="language-plaintext highlighter-rouge">프로토타입 모델</code><br />
+장점 : 요구사항 이상할 때 좋음, 변경 쉬움, 요구사항 극대화 가능, 빠른 오류 발견 나이스<br />
+단점 : 만들었는데 프젝 포기하면 돈 만 아까움, 문서화하기 어려움, 변경 많으면 개발에 필요한 시간, 비용 증가 <del>C..</del></p>
+
+  <p><code class="language-plaintext highlighter-rouge">나선형 모델</code>
+장점 : 정확한 사용자 요구사항 파악 가능, 요구사항 변동 대처 가능, 위험 최소화, 대규모 프젝 적합<br />
+단점 : 프로젝트에 시간 많이 걸림, 반복 수행해야 됨, 위험 관리 능력 없으면 프젝 안됨</p>
+</blockquote>
+
+<h2 id="분석-도구-선정">분석 도구 선정</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">엑셀</code> :
+다른 분석 도구보다 사용하기 쉬움, 복잡한 명령어 없이 리본 메뉴를 통해 간단하게 사용 가능<br />
+<code class="language-plaintext highlighter-rouge">R</code> :
+통계분석, 데이터 마이닝, 시각화를 목적으로 개발, 무수한 기능 확장, 즉시 사용 가능한 테스트 데이터 제공<br />
+<code class="language-plaintext highlighter-rouge">파이썬</code> :
+다양한 플랫폼 사용 가능, 다양한 라이브러리, 다른 모듈과 연결하는 언어<br />
+<code class="language-plaintext highlighter-rouge">하둡</code> :
+분산 환경에서 빅데이터를 처리할 수 있는 오픈 소스 프레임워크, 구축비용 저렴, 실시간 노노<br />
+<code class="language-plaintext highlighter-rouge">맵리듀스</code> : 
+대용량 데이터를 분산 병렬 컴퓨팅 통해 처리, 데이터를 key-value 쌍으로 연산<br />
+<code class="language-plaintext highlighter-rouge">SAS</code> :
+간단한 명명문만으로도 여러가지 통계분석 가능, 대용량 데이터 분석하는게 용이, 고가의 라이선스 필요, 새로운 연구 반영하기 어려움<br />
+<code class="language-plaintext highlighter-rouge">SPSS</code> :
+사회 과학 자료 분석을 위한 통계 프로그램, 고가의 라이선스, GUI있음<br />
+<code class="language-plaintext highlighter-rouge">Stata</code> :
+통계 패키지인 동시에 데이터 관리 시스템. 데이터 관리와 시각화 기능이 탁원, 라이선스가 다른 통계 프로그램보다 저렴</p>
+</blockquote>
+
+<h2 id="데이터셋-분할">데이터셋 분할</h2>
+<p>학습 데이터셋 : 학습시킬 데이터<br />
+검증 데이터셋 : 학습이 완료될 모델을 검증하기 위해 사용하는 데이터셋, 하이퍼파라미터 튜닝과 최적 모델을 선택하기 위해 사용<br />
+테스트 데이터셋 : 최좆ㅇ 모델에 대한 성능을 평가 데이터</p>
+
+<h2 id="과적합과-과소적합">과적합과 과소적합</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">과적합</code><br />
+원인 : 학습 데이터에 다양함이 없음, 파라미터 과도, 모델이 과도하게 복잡, 변수의 수가 많음, 노이즈 많음<br />
+해결 : 더 많은 학습 데이터, 데이터 노이즈 제거, 모델 규제 (단순화), 검증 셋을 이용 일반화 성능 향상<br />
+<code class="language-plaintext highlighter-rouge">과소적합</code><br />
+원인 : 모델이 너무 단순, 규제가 너무 강함<br />
+해결 : 더 많은 파라미터, 모델 규제 완화, 다양한 비선형 모델 사용</p>
+</blockquote>
+
+<h2 id="데이터-분할-방법">데이터 분할 방법</h2>
+<p>홀드아웃 : 가장 보편적인 데이터 분할. 전체 데이터 랜덤 추출 train-test-split<br />
+k-폴드 교차 검증 : 전체 데이터를 중복되지 않는 K개의 데이터셋으로 나눔. k-1개의 데이터셋을 학습셋으로 사용. 나머지 1개를 데이터셋을 검증셋으로 함. k번의 테그트를 통해 나온 모델의 성능을 평균화.<br />
+부트스트랩 : 중복추출 허용. 어떤건 여러번 추출, 어떤건 아예 안 뽑힘<br />
+startified K-폴드 교차검증 : 불균형 데이터를 사용할때 주로 사용. 각 폴드가 가지는 레이블의 분포가 유사하게 폴드를 추출</p>
+
+<h2 id="회귀분석의-가정">회귀분석의 가정</h2>
+<p>선형성 : 독립변수가 변화 할 때 종속변수가 일정한 크기로 변화 == 선형성 만족. <code class="language-plaintext highlighter-rouge">산점도</code>를 통해 확인 할 수 있음.<br />
+독립성 : 잔차와 독립변수의 값이 서로 독립이어야 함을 의미<br />
+등분산성 : 잔차의 분산이 독립변수와 무관하게 일정. 잔차가 고르게 분포. 독립변수와 잔차에 대한 산점도로 확인<br />
+정규성 : 잔차항이 <code class="language-plaintext highlighter-rouge">정규분포</code>의 형태를 띄어야 함. Q-Q플롯에서 우상향 하는 직선 == 정규성 만족.<br />
+비상관성 : 잔차끼리 서로 독립이면 비상관성이 있다고 판단. Durbin-Watson 통계량을 통해 확인.</p>
+
+<h2 id="회귀분석의-종류">회귀분석의 종류</h2>
+<p>단순회귀분석 : 독립변수와 종속변수가 1개씩 일 때 이 둘 사이의 인과관계를 분석하는 . 두 변수의 관계가 선형<br />
+다중회귀분석 : 독립변수가 2개 이상 종속변수가 하나일때 사용 가능한 회귀분석으로 독립변수와 종속변수의 관계가 선형으로 표현 (단순회귀분석이 확장된 형태)<br />
+다항회귀분석 : 독립 변수가 2개 이상, 종속 변수가 하나일 때 사용가능한 회귀분석. 독립변수와 종속변수의 관계가 1차 함수 이상 표현<br />
+비선형회귀분석 : 종속변수를 독립변수와 회귀계수의 선형적인 결합으로 표현할 수 없는 경우 사용한다.</p>
+
+<h2 id="모형-적합성">모형 적합성</h2>
+<p>회귀모형의 유의성 검증 : F-통계량을 통해 회귀모형의 통계적 유의성 확인<br />
+회귀계수의 유의성 검증 : T-통계량을 통해 각 회귀계수의 유의성 확인<br />
+모형의 설명력 : 결정계수(R2)를 통해 모형의 설명력 확인</p>
+
+<h2 id="단순-회귀-분석의-분산분석표">단순 회귀 분석의 분산분석표</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">요인</th>
+      <th style="text-align: center">제곱합</th>
+      <th style="text-align: center">자유도</th>
+      <th style="text-align: center">제곱평균</th>
+      <th style="text-align: center">F</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">회귀</td>
+      <td style="text-align: center">SSR</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">MSR=SSR</td>
+      <td style="text-align: center">MSR/MSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">잔차</td>
+      <td style="text-align: center">SSE</td>
+      <td style="text-align: center">n-2</td>
+      <td style="text-align: center">MSE=SSE/n-2</td>
+      <td style="text-align: center">MSR/MSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">총</td>
+      <td style="text-align: center">SST</td>
+      <td style="text-align: center">n-1</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+:ET
