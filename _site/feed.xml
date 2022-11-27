@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T13:42:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-27T13:43:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -718,11 +718,29 @@ IQR = Q3-Q1<br />
 (GIS 구성요소 : <code class="language-plaintext highlighter-rouge">컴퓨터 시스템</code> <code class="language-plaintext highlighter-rouge">GIS 소프트웨어</code> <code class="language-plaintext highlighter-rouge">인력</code> <code class="language-plaintext highlighter-rouge">데이터</code> <code class="language-plaintext highlighter-rouge">인프라</code>)</p>
 
 <h2 id="일변량-vs-이변량-vs-다변량">일변량 vs 이변량 vs 다변량</h2>
-<p>|분석종류|내용|
-|:—:|:—|
-|일변량분석|<span style="color:red"><u> 가장 간단한 형태의 분석. </u></span>1개의 변수를 대상으로 패턴을 찾는 것이 목표. 평균, 중앙값, 최빈값, 분산 등을 조사|
-|이변량분석|2개의 변수를 이용한 분석을 수행하며 두 변수 간의 관계를 주로 분석|
-|다변량분석|3개의 변수를 이용한 복잡한 형태의 분석, <span style="color:red"><u>차원을 축소하건나 유사성, 근접성을 기준으로 분류함</u></span>|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">분석종류</th>
+      <th style="text-align: left">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">일변량분석</td>
+      <td style="text-align: left"><span style="color:red"><u> 가장 간단한 형태의 분석. </u></span>1개의 변수를 대상으로 패턴을 찾는 것이 목표. 평균, 중앙값, 최빈값, 분산 등을 조사</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이변량분석</td>
+      <td style="text-align: left">2개의 변수를 이용한 분석을 수행하며 두 변수 간의 관계를 주로 분석</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">다변량분석</td>
+      <td style="text-align: left">3개의 변수를 이용한 복잡한 형태의 분석, <span style="color:red"><u>차원을 축소하건나 유사성, 근접성을 기준으로 분류함</u></span></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="다변량-분석">다변량 분석</h2>
 <p>상관분석 : 산점도 행렬을 그려 교차하는 변수 간의 관계를 보여주는 <code class="language-plaintext highlighter-rouge">산점도와 상관계수</code>를 파악<br />
@@ -853,10 +871,28 @@ F분포 : 두 데이터셋의 분산에 대한 분포</p>
 유의확률 : 귀무가설을 지지하는 정도, p-value</p>
 
 <h2 id="가설검정-오류">가설검정 오류</h2>
-<p>||귀무 참|귀무 거짓|
-|:—:|:—:|:—:|
-|기각|1종오류|옳은결정|
-|채택|옳은결정|2종오류|</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center">귀무 참</th>
+      <th style="text-align: center">귀무 거짓</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">기각</td>
+      <td style="text-align: center">1종오류</td>
+      <td style="text-align: center">옳은결정</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">채택</td>
+      <td style="text-align: center">옳은결정</td>
+      <td style="text-align: center">2종오류</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>1종오류 : 귀무가설이 참인데 기각<br />
 2종오류 : 귀무가설이 거짓인데 채택</p>
