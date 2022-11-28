@@ -7,7 +7,7 @@ tags:
  - [Certification, BigData, ML, DL, Study]
 
 
-
+    
 toc : true
 toc_sticky : true
 
