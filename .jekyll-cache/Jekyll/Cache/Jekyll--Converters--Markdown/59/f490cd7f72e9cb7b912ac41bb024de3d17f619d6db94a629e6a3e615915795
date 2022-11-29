@@ -1,0 +1,22 @@
+I"
+<font size="1"><span style="color:gray">Introduction</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">(사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다)</span></font>
+
+<h2 id="군집분석-평가-방법">군집분석 평가 방법</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">외부평가</code><br />
+자카드계수 (두 데이터 군집간의 유사도 게산)<br />
+분류 모형 평가 방법 응용 (혼돈행렬, ROC)<br />
+<code class="language-plaintext highlighter-rouge">내부평가</code><br />
+단순 계산법<br />
+군집간의 거리를 계산 (유클리드, 맨해튼, 민코스피스키, 표준화, 마할라노비스, 캔버라, 체비셰프)<br />
+엘보메소드</p>
+</blockquote>
+
+<h2 id="분류분석-평가지표">분류분석 평가지표</h2>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/204422617-aac70b2e-7fba-42b0-8e5e-e2418a3ead47.png" alt="" width="60%" height="60%" class="align-center" /></p>
+:ET

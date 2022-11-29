@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-29T10:14:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-29T11:52:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">오월의 기록</title><subtitle>공부기록</subtitle><author><name>오월이 주인 🐾</name></author><entry><title type="html">[Thought] 시험공부와 개발</title><link href="http://localhost:4000/thought/Thought3/" rel="alternate" type="text/html" title="[Thought] 시험공부와 개발" /><published>2022-11-21T00:00:00+09:00</published><updated>2022-11-21T00:00:00+09:00</updated><id>http://localhost:4000/thought/Thought3</id><content type="html" xml:base="http://localhost:4000/thought/Thought3/"><![CDATA[<font size="2"> <span style="color:gray">Introduction</span></font>
 <font size="1"> <span style="color:gray">끄적끄적 일기마냥 생각나는 아무거나..</span></font>
 
 <h3 id="커리어에-있어서-필요한-우선순위란"><strong>커리어에 있어서 필요한 우선순위란.</strong></h3>
@@ -1400,7 +1400,173 @@ BPTT를 통해 가중치 학습<br />
 <p>부호검정 : 중앙값을 통해 검정하는 방법. 표본의 값이 중앙값과 동일한 경우 0을 부여, 표본에서 제외<br />
 만-위트니 검정 : 윌콕슨의 순위 합 검정. 독립된 두 집단의 중심 위치를 비교하기 위해 사용. 정규분포에 대한 가정이 필요없어 데이터의 크기 순서만 있다면 어떤 경우에도 적용.<br />
 크루스칼-왈리스 검정 : 세 개 이상 집단의 중앙값을 비교하기 위해 사용. 추출된 각 표본이 중앙값만 다르고 모두 동일한 형태의 분포. 일종의 순위 합 검정법.<br />
-런 검정 : 각 표본이 서로 독립적이라는 가설을 검정하기 위해 사용하는 방법. 추출된 표본들이 어떠한 패턴 없이 무작위로 구성되었는지 검정. 서로 배타적인 2개의 집단으로 나누어 접근</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터분석기사 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터분석기사 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
+런 검정 : 각 표본이 서로 독립적이라는 가설을 검정하기 위해 사용하는 방법. 추출된 표본들이 어떠한 패턴 없이 무작위로 구성되었는지 검정. 서로 배타적인 2개의 집단으로 나누어 접근</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터분석기사 4장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification4/" rel="alternate" type="text/html" title="[Certification] 빅데이터분석기사 4장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification4</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification4/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
+<font size="1"><br /></font>
+<font size="1"><span style="color:gray">(사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다)</span></font>
+
+<h2 id="군집분석-평가-방법">군집분석 평가 방법</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">외부평가</code><br />
+자카드계수 (두 데이터 군집간의 유사도 게산)<br />
+분류 모형 평가 방법 응용 (혼돈행렬, ROC)<br />
+<code class="language-plaintext highlighter-rouge">내부평가</code><br />
+단순 계산법<br />
+군집간의 거리를 계산 (유클리드, 맨해튼, 민코스피스키, 표준화, 마할라노비스, 캔버라, 체비셰프)<br />
+엘보메소드</p>
+</blockquote>
+
+<h2 id="분류분석-평가지표">분류분석 평가지표</h2>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/204422617-aac70b2e-7fba-42b0-8e5e-e2418a3ead47.png" alt="" width="60%" height="60%" class="align-center" /></p>
+
+<h2 id="혼돈행렬-평가-지표">혼돈행렬 평가 지표</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">정확도</code><br />
+Accuracy<br />
+tp + tn / tp + tn + fP + fn<br />
+전체 데이터에서 올바르게 분류한 데이터의 비율</p>
+
+  <p><code class="language-plaintext highlighter-rouge">정밀도</code><br />
+Precision<br />
+tp / tp + fp<br />
+Positive로 예측한 것 중 실제 값이 Postive인 비율</p>
+
+  <p><code class="language-plaintext highlighter-rouge">재현율</code><br />
+Recall, 민감도(Sensitivity), 참 긍정률(TPR)<br />
+tp / tp + fn<br />
+실제 Positive인 값 중 positive로 분류한 비율</p>
+
+  <p><code class="language-plaintext highlighter-rouge">특이도</code><br />
+Specificity, 참부정율(TNR)<br />
+tn / tn + fp<br />
+실제 Negative인 값 중 Negative로 분류한 비율</p>
+
+  <p><code class="language-plaintext highlighter-rouge">거짓긍정률</code><br />
+FPR<br />
+1 - (tn / tn + fp) = fp / tn + fp<br />
+실제 Negative인 값 중 Positive로 잘못 분류한 비율<br />
+1 - Specitificity</p>
+
+  <p><code class="language-plaintext highlighter-rouge">F1-Score</code><br />
+2 X Precision X Recall / Precision + Recall<br />
+정밀도와 재현율의 조화 평균.</p>
+</blockquote>
+
+<h2 id="roc">ROC</h2>
+<p>ROC곡선은 임계값을 다양하게 조절해 분류 모형의 성능을 비교할 수 있는 그래프.<br />
+TPR을 y, FPR을 x축에 두어 시각화.<br />
+<code class="language-plaintext highlighter-rouge">면적이 넓을 수로 좋음</code></p>
+
+<h2 id="회귀-평가지표">회귀 평가지표</h2>
+<p>|지표|오차상쇄처리|이상치|
+|:—:|—:|:—|
+|MAE|절대값|유리|
+|MSE|제곱|불리|
+|RMSE|제곱|불리|
+|MAPE|절대값|유리|</p>
+
+<h2 id="교차검증">교차검증</h2>
+<p>교차검증은 데이터를 나누고 학습하는 과정을 여러 차례 반복함으로써 일반화 성능을 평가<br />
+K폴드 교차검증 : 데이터를 K개의 폴드 파티션으로 나누어 k-1을 학습, 나머지를 검증용으로 사용, K번 학습하여 얻은 결과의 평균을 사용<br />
+홀드아웃 : 가장 단순한 종류의 교차검증 (train-test-split)<br />
+리브-P-아웃 : P개의 관측치만 검증용으로 사용, 나머지 관측치는 모두 모형을 학습하는데 사용함.</p>
+
+<h2 id="모수-검정과-비모수-검정-비교할">모수 검정과 비모수 검정 비교할</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">모수 검정</code> :
+가정된 분포의 모수에 대해 가설 설정<br />
+표본평균, 표본 분산<br />
+검정력 : 강함<br />
+<code class="language-plaintext highlighter-rouge">비모수 검정</code> :
+분포의 형태에 대한 가설 설정<br />
+순위, 부호<br />
+검정력 : 약함</p>
+</blockquote>
+
+<h2 id="적합도-검정">적합도 검정</h2>
+<p>카이제곱검정 : 범주형 데이터를 대상으로 관측된 값들의 빈도수와 기대 빈도수가 의미있게 다른지 비교<br />
+샤피로 윌크 검정 : 데이터가 정규분포로부터 추출된 표본인지<br />
+콜모고로프 스미르노프 : 데이터의 누적분포함수와 임의 분포의 누적분포함 수 간의 최대차이 D를 검정통계량<br />
+Q-Q플롯 : 그래픽적으로 데이터의 정규성을 확인하는 가장 간단한 방법</p>
+
+<h2 id="과적합을-방지하는-방법">과적합을 방지하는 방법</h2>
+<p>학습데이터 확보, 교차검증, 피처수 감소, 정규화</p>
+
+<h2 id="매개변수-최적화와-경사하강법">매개변수 최적화와 경사하강법</h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">경사하강법</code> :
+현재 위치에서 기울기를 구해 함수의 값이 급격히 감소하는 방향으로 매개 변수 값을 조정하는 것을 반복, 전역 최솟값을 찾아 나가는 것.<br />
+<code class="language-plaintext highlighter-rouge">확률적 경사하강법</code> :
+무작위로 샘플리된 하나의 샘플로 그레이디언트 계산, 매개변수를 업데이트<br />
+<code class="language-plaintext highlighter-rouge">미니배치확률적경사하강법</code> : 
+한번 매개변수를 업데이트 할 때 마다 전체 데이터셋을 사용하는 방식<br />
+<code class="language-plaintext highlighter-rouge">모멘텀</code> :
+SGD가 가는 방향에 가속도를 부여<br />
+<code class="language-plaintext highlighter-rouge">AdaGrad</code> :
+매개변수별 적응 학습률을 사용하는 알고리즘<br />
+<code class="language-plaintext highlighter-rouge">Adam</code> :
+오래된 기울기의 영향력을 지수적으로 줄여 RMSprop에 모멘텀을 더함</p>
+</blockquote>
+
+<h2 id="앙상블-기법">앙상블 기법</h2>
+<p>보팅 : 서로 다른 알고리즘을 두고 최종 예측 결과를 결정함.<br />
+배깅 : 간단하고 강력한 앙상블 기법<br />
+랜덤포레스트 : 의사결정 트리를 개별 모형으로 사용하는 모형 결합<br />
+부스팅 : 여러 개의 연결된 약한 분석 모형을 순차적으로 학습</p>
+
+<h2 id="bsc-성과관리">BSC 성과관리</h2>
+<p>고객, 프로세스, 학습과 성장의 관점을 추가해 다각적으로 성과관리</p>
+
+<h2 id="kpi-빅데이터-활용">KPI 빅데이터 활용</h2>
+<p>영업 : 타깃 세그멘테이션, 마케팅 영역 데이터 분석 활용<br />
+사기 : 보험사기 방지, 코로나 경로 분석<br />
+비즈니스 : 생산 효율화, 공정관리 업무 효율 향상</p>
+
+<h2 id="시각화-분류">시각화 분류</h2>
+<p>데이터 시각화 : 시각적 표현, 속성 변수 단위 포함 정보, 명확하고 정확하게 커뮤니케이션 목적, 데이터간의 연결과 그루핑 표현, 마인드맵, 의사결정트리, 통계 그래픽<br />
+정보 시ㅣ각화 : 인터넷 네트워크 관계 등 집합에 대한 시각적 표현 연구, 대규모 비수량 정보 시각적 표현, 데이터 시각화보다 한 단계 더 정보 형태로 가공, 트리맵, 분기도, 수지도, 히트맵 등</p>
+
+<h2 id="시각화-종류">시각화 종류</h2>
+<p>그래프, 도표, 이미지, 인포그래픽, 히스토그램, 상자그림, 산점도 등</p>
+
+<h2 id="시각화-프로세스">시각화 프로세스</h2>
+<p>구조화 &gt; 시각화 &gt; 시각표현단계</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">종류</th>
+      <th style="text-align: center">주요시각화도구</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">시각</td>
+      <td style="text-align: center">막대그래프, 점, 산점도, 선, 계단식, 영역</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">공간</td>
+      <td style="text-align: center">지도, 등치선도,버블플롯, 도트플롯</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">분포</td>
+      <td style="text-align: center">파이,도넛,트리맵,누적막대/연속그래프</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">관계</td>
+      <td style="text-align: center">산점도,버블,히스토그램,밀도</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">비교</td>
+      <td style="text-align: center">막대,플로팅바,히트맵,체르노프,스타,평행</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="시각화-단계">시각화 단계</h2>
+<p>특성화 &gt; 추상화 &gt; 상호작용 &gt; 개발</p>]]></content><author><name>오월이 주인 🐾</name></author><category term="Certification" /><category term="Certification" /><category term="BigData" /><category term="ML" /><category term="DL" /><category term="Study" /><summary type="html"><![CDATA[빅데이터 실기 필기]]></summary></entry><entry><title type="html">[Certification] 빅데이터분석기사 1장 정리본</title><link href="http://localhost:4000/certification/BigdataCertification1/" rel="alternate" type="text/html" title="[Certification] 빅데이터분석기사 1장 정리본" /><published>2022-11-19T00:00:00+09:00</published><updated>2022-11-19T00:00:00+09:00</updated><id>http://localhost:4000/certification/BigdataCertification1</id><content type="html" xml:base="http://localhost:4000/certification/BigdataCertification1/"><![CDATA[<font size="1"><span style="color:gray">Introduction</span></font>
 <font size="1"><br /></font>
 <font size="1"><span style="color:gray">빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다.</span></font>
 <font size="1"><br /></font>

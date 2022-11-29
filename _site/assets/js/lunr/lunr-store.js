@@ -41,6 +41,12 @@ var store = [{
         "url": "http://localhost:4000/certification/BigdataCertification3/",
         "teaser": null
       },{
+        "title": "[Certification] 빅데이터분석기사 4장 정리본",
+        "excerpt":"Introduction 빅분기 실기 문제를 바로 접하기 전에, 우선 단답형 정리본을 한 번 훑고 들어가는 것이 더 중요하다고 느꼈다. (사실 문제 풀다가 이건 아닌 것 같아서 정리본 봐야겠다는 생각이 들었다) 군집분석 평가 방법 외부평가 자카드계수 (두 데이터 군집간의 유사도 게산) 분류 모형 평가 방법 응용 (혼돈행렬, ROC) 내부평가 단순 계산법 군집간의...","categories": ["Certification"],
+        "tags": ["Certification","BigData","ML","DL","Study"],
+        "url": "http://localhost:4000/certification/BigdataCertification4/",
+        "teaser": null
+      },{
         "title": "[Certification] 빅데이터 실기 단답형 문제 모음",
         "excerpt":"필기 1장 고놈의 하둡 Introduction 14일 남았다. 필기는 문제 풀이를 위주로 공부를 하고, 실기는 Kaggle 문제를 풀면서 진행해보자. 가지고 있는 필기 문제는 총 444개이므로 매일 40문제를 풀고 복습하면 될 것 같다. 단답형 문제 단답형 문제를 이론 공부처럼 하게 되면 남은 기간으로서는 어려울 것 같다. 빅데이터 실기 내 단답형 문제는? 주관식...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
