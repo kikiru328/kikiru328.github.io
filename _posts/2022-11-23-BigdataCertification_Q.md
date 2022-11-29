@@ -13,8 +13,8 @@ toc_sticky : true
 
 
 
-date : 2022-11-20
-last_modified_dat : 2022-11-20
+date : 2022-11-23
+last_modified_dat : 2022-11-23
 ---
 # 필기 1장 고놈의 하둡
 <font size='2'><span style='color:gray'>Introduction  </span></font>  
