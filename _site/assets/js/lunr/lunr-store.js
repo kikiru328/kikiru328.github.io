@@ -53,9 +53,9 @@ var store = [{
         "url": "http://localhost:4000/certification/BigdataCertification_Q/",
         "teaser": null
       },{
-        "title": "[Thought] 시험공부와 개발",
-        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  커리어에 있어서 필요한 우선순위란.      1. 우선순위   우선 하는 연구부터 천천히 정리하는게 좋을 것 같다.   DeepSort 정리하기.   2. Side Project   사이드 프로젝트도 하나 하자. 클라이밍 프로젝트도 좋고 Dacon도 해보자.   ","categories": ["Thought"],
-        "tags": ["Thought","Essay"],
-        "url": "http://localhost:4000/thought/Thought3/",
+        "title": "[Certification] 빅데이터 실기 Kaggle",
+        "excerpt":" ","categories": ["Certification"],
+        "tags": ["Certification","BigData","ML","DL","Study"],
+        "url": "http://localhost:4000/certification/BigdataCertification5/",
         "teaser": null
       }]
