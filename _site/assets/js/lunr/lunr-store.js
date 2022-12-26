@@ -58,4 +58,16 @@ var store = [{
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification5/",
         "teaser": null
+      },{
+        "title": "[Thought] 개발분야를 정해야하겠지?",
+        "excerpt":"Introduction 끄적끄적 일기마냥 생각나는 아무거나.. 이제 다른 일을 찾아야한다. 고민이 많은 하루하루 무슨 일 있어요? 아쉽게도 회사 내에서 인공지능을 사용할 수 없는 환경이 되어버렸다. 그렇다고 개발을 안 한 것은 아니지만, 내가 원하는 헬스케어 인공지능을 하기에는 시간이 많이 필요할 것 같다. 어짜저차 많은 얘기를 오간 뒤 나의 커리어의 전문성을 위하여 옮기는...","categories": ["Thought"],
+        "tags": ["Thought","Essay"],
+        "url": "http://localhost:4000/thought/Thought3/",
+        "teaser": null
+      },{
+        "title": "[Thought] 개발분야를 정해야하겠지?",
+        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  오늘은 쉬고 내일부터는 정리할 것들이 많아요    ?   내일부터 해야할 것들은 몇가지 있는데  일단 이력서 준비를 다시 해야하겠다.  조금더 상세하게 적을 필요가 있다고 본다.   그리고 deepsort를 이용한 내용들도 반영해보자   추가로 해할 것  python 팁도 정리해보자.   ","categories": ["Thought"],
+        "tags": ["Thought","Essay"],
+        "url": "http://localhost:4000/thought/Thought4/",
+        "teaser": null
       }]
