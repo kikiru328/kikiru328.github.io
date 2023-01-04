@@ -18,10 +18,12 @@ last_modified_dat : 2023-01-03
 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
 
-## **Neural Network and Deep learning**
+# **Neural Network and Deep learning**
+---
+
 <font size='2'>딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다.</font>  
 
-### **What is a Nerual Network**
+## **What is a Nerual Network**
 Deep learning이라는 단어는 `신경망 트레이닝`을 일컫는 말이다.  
 집값 예측을 예시로 들면 다음과 같다.  
 
@@ -41,4 +43,20 @@ Deep learning이라는 단어는 `신경망 트레이닝`을 일컫는 말이다
 ![](https://user-images.githubusercontent.com/60537388/210484141-416e5075-d0dc-4906-ab70-23e206459e63.png){: align="center" }
 <br/>
 좌측 총 4개의 변수가 숨겨진 노드(은닉층)에 특성을 부여하고, 특성에 맞는 마지막 노드(출력층)에서 결과를 예측할 수 있다. 모든 노드에 특성이 연결되어 있어 `신경망`이라고 불린다.
+
+
+## **Supervised Learning with Neural Network**
+지도 학습에서는 일부 입력값 x와 출력값 y에 대한 함수 매핑을 의미  
+따라 무엇이 X, Y 가 되는지 면밀히 살펴보고 정해야한다.  
+
+지도학습 딥러닝은 다음과 같다  
+
+|Input(x)|Output(y)|Application|Type|
+|:---:|:---:|:---:|
+|Home Features|Price|Real Estate|Standard N.N|
+|Ad, user info|Click on ad (0/1)|Online Advertising | Standard N.N|
+|Image|Object(1,,1000)|Photo tagging|CNN
+|Audio|Text transcript|Speech recognition|RNN|
+|English|Chinese|Machine Learning|RNN|
+|Image, Radar info|Postion of other cars|Autonomous driving|Cusuomal Hybrid|
 

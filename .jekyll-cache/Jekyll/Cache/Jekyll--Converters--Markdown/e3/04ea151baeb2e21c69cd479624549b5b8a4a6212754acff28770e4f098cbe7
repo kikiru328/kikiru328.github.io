@@ -1,0 +1,33 @@
+I"<	<font size="2"> <span style="color:gray">Introduction</span></font>
+<font size="1"> <span style="color:gray">Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다.  
+복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
+수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
+
+<h1 id="neural-network-and-deep-learning"><strong>Neural Network and Deep learning</strong></h1>
+<hr />
+
+<font size="2">딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다.</font>
+
+<h2 id="what-is-a-nerual-network"><strong>What is a Nerual Network</strong></h2>
+<p>Deep learning이라는 단어는 <code class="language-plaintext highlighter-rouge">신경망 트레이닝</code>을 일컫는 말이다.<br />
+집값 예측을 예시로 들면 다음과 같다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/210482955-1f4bcefb-1847-492c-a010-99cb3173a858.png" alt="" width="400" height="400" align="left" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/210483046-5cfb8c86-72ca-4757-a221-754f300d04ce.png" alt="" width="400" height="400" align="center" /><br />
+<br /><br />
+집 크기와 집값의 관계에서 파란색 선형함수는 우측의 node가 구현하게 된다. 이 것이 가장 기초적인 신경망의 단계이다.</p>
+<details>
+<summary><font size="2">RELU?</font></summary>
+<div>
+    <p><span style="color:skyblue">때때로 0이 되고 또한 직선으로 작용하는 함수는 Relu함수라고 일컫는다. Rectified Linear Unit</span></p>
+  </div>
+</details>
+<p><br />
+이 처럼 단순한 신경망의 단계가 여러 변수와 함께 적용이 되면 다음과 같다.<br />
+<img src="https://user-images.githubusercontent.com/60537388/210484141-416e5075-d0dc-4906-ab70-23e206459e63.png" alt="" align="center" />
+<br />
+좌측 총 4개의 변수가 숨겨진 노드(은닉층)에 특성을 부여하고, 특성에 맞는 마지막 노드(출력층)에서 결과를 예측할 수 있다. 모든 노드에 특성이 연결되어 있어 <code class="language-plaintext highlighter-rouge">신경망</code>이라고 불린다.</p>
+
+<h2 id="supervised-learning"><strong>Supervised Learning</strong></h2>
+:ET
