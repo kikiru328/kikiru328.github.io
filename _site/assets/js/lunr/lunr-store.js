@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[Certification] 빅데이터 실기 Kaggle",
-        "excerpt":" ","categories": ["Certification"],
+        "excerpt":"실기 문제 Introduction 실기문제는 kaggle 에 있는 [🔗 빅데이터 캐글](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr) 에 있는 내용을 사용할 예정이다. 빅데이터 실기 문제 문제 및 해설 [T1-1] 문제 : 데이터에서 IQR을 활용해 Fare 컬럼의 이상치를 찾고, 이상치 데이터의 여성 수를 구하시오. 정답 # 데이터 파일 읽기 예제 import pandas as pd a = pd.read_csv(\"./titanic_train.csv\") #...","categories": ["Certification"],
         "tags": ["Certification","BigData","ML","DL","Study"],
         "url": "http://localhost:4000/certification/BigdataCertification5/",
         "teaser": null
@@ -66,8 +66,32 @@ var store = [{
         "teaser": null
       },{
         "title": "[Thought] 개발분야를 정해야하겠지?",
-        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  오늘은 쉬고 내일부터는 정리할 것들이 많아요    ?   내일부터 해야할 것들은 몇가지 있는데  일단 이력서 준비를 다시 해야하겠다.  조금더 상세하게 적을 필요가 있다고 본다.   그리고 deepsort를 이용한 내용들도 반영해보자   추가로 해할 것  python 팁도 정리해보자.   ","categories": ["Thought"],
+        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  오늘은 쉬고 내일부터는 정리할 것들이 많아요    내일부터 해야할 것들은 몇가지 있는데  일단 이력서 준비를 다시 해야하겠다.  조금더 상세하게 적을 필요가 있다고 본다.   그리고 deepsort를 이용한 내용들도 반영해보자   추가로 해할 것  python 팁도 정리해보자.   ","categories": ["Thought"],
         "tags": ["Thought","Essay"],
         "url": "http://localhost:4000/thought/Thought4/",
+        "teaser": null
+      },{
+        "title": "[Thought] 2022년 어떻게 보낼까",
+        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  2022년을 보내면서    일기는 나중에 ^*^  역시 바뀌지 않는 daniel!  ","categories": ["Thought"],
+        "tags": ["Thought","Essay"],
+        "url": "http://localhost:4000/thought/Thought5/",
+        "teaser": null
+      },{
+        "title": "[Thought] 새로운 해 2023",
+        "excerpt":" Introduction  끄적끄적 일기마냥 생각나는 아무거나..  Happy New Year! Hello 2023!    새해가 밝았습니다!  언제나 행복과 평화가 있기를 간절히 빕니다.   저는 올해 성장을 목표로 많은 노력을 하겠습니다.  ","categories": ["Thought"],
+        "tags": ["Thought","Essay"],
+        "url": "http://localhost:4000/thought/Thought6/",
+        "teaser": null
+      },{
+        "title": "[DL Specilization] DeepLearning - Introduction",
+        "excerpt":"Introduction Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다. 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다. 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. DeepLearning specializations Course Neural Network and Deep learning 신경망을 구축하는 방법 (심층 신경망과 데이터에 심층 신경망을 훈련 시키는 방법) Improving Deep Neural...","categories": ["Google Coursera"],
+        "tags": ["DeepLearning","Study","Google","Coursera"],
+        "url": "http://localhost:4000/google%20coursera/Coursera_Deeplearning_intro/",
+        "teaser": null
+      },{
+        "title": "[DL Specilization] DeepLearning - Neural Network",
+        "excerpt":"Introduction Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다. 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다. 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. DeepLearning specializations Course Neural Network and Deep learning 신경망을 구축하는 방법 (심층 신경망과 데이터에 심층 신경망을 훈련 시키는 방법) asd Improving Deep...","categories": ["Google Coursera"],
+        "tags": ["DeepLearning","Study","Google","Coursera"],
+        "url": "http://localhost:4000/google%20coursera/Coursera_Deeplearning_nerual/",
         "teaser": null
       }]

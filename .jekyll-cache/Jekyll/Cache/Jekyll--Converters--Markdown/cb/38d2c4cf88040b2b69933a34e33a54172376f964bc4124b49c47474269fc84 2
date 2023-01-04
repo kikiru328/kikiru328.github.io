@@ -1,0 +1,75 @@
+I"�<h1 id="실기-문제">실기 문제</h1>
+<font size="2"><span style="color:gray">Introduction  </span></font>
+<hr />
+<font size="1"><span style="color:gray">실기문제는 kaggle 에 있는 [🔗 빅데이터 캐글](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr) 에 있는 내용을 사용할 예정이다.</span></font>
+
+<h3 id="빅데이터-실기-문제-문제-및-해설">빅데이터 실기 문제 문제 및 해설</h3>
+
+<ol>
+  <li>
+    <font size="2">[T1-1]  
+ 문제 : 데이터에서 IQR을 활용해 Fare 컬럼의 이상치를 찾고, 이상치 데이터의 여성 수를 구하시오.</font>
+    <details>
+ <summary><font size="2"><span style="color:gray">정답</span></font></summary>
+ <div>
+
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># 데이터 파일 읽기 예제
+</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+ <span class="n">a</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"./titanic_train.csv"</span><span class="p">)</span>
+ <span class="c1"># 사용자 코딩
+</span> <span class="n">q1</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">].</span><span class="n">quantile</span><span class="p">(.</span><span class="mi">25</span><span class="p">)</span>
+ <span class="n">q3</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">].</span><span class="n">quantile</span><span class="p">(.</span><span class="mi">75</span><span class="p">)</span>
+ <span class="n">IQR</span> <span class="o">=</span> <span class="n">q3</span><span class="o">-</span><span class="n">q1</span>
+ <span class="n">low_out</span><span class="p">,</span> <span class="n">high_out</span> <span class="o">=</span> <span class="p">(</span><span class="n">q1</span><span class="o">-</span><span class="p">(</span><span class="mf">1.5</span><span class="o">*</span><span class="n">IQR</span><span class="p">),</span> <span class="n">q3</span><span class="o">+</span><span class="p">(</span><span class="mf">1.5</span><span class="o">*</span><span class="n">IQR</span><span class="p">))</span>
+ <span class="n">low_outlier</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">]</span><span class="o">&lt;</span><span class="n">low_out</span><span class="p">]</span>
+ <span class="n">high_outlier</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">]</span><span class="o">&gt;</span><span class="n">high_out</span><span class="p">]</span>
+
+ <span class="c1"># 답안 제출 예시
+</span> <span class="c1"># print(평균변수값)
+</span> <span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">high_outlier</span><span class="p">[</span><span class="n">high_outlier</span><span class="p">[</span><span class="s">'Sex'</span><span class="p">]</span><span class="o">==</span><span class="s">'female'</span><span class="p">]))</span>
+</code></pre></div>        </div>
+
+        <details>
+ <summary><font size="2"><span style="color:gray">해설</span></font></summary>
+ <div>
+
+            <p>IQR 이 문제에 나오면 <code class="language-plaintext highlighter-rouge">.quantile()</code>을 생각하자.</p>
+          </div>
+ </details>
+      </div>
+ </details>
+  </li>
+  <li>
+    <font size="2">[T1-2]  
+ 문제 : 주어진 데이터에서 이상치(소수점 나이)를 찾고 올림, 내림 버림(절사)했을 때 3가지 모두 이상치 'age' 평균을 구한 다음 모두 더하여 출력하시오.</font>
+    <details>
+ <summary><font size="2"><span style="color:gray">정답</span></font></summary>
+ <div>
+
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># 데이터 파일 읽기 예제
+</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+ <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"./basic1.csv"</span><span class="p">)</span>
+ <span class="c1"># 사용자 코딩
+</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+ <span class="n">age</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">'age'</span><span class="p">]</span> <span class="o">-</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">'age'</span><span class="p">]))</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
+ <span class="n">ceil</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+ <span class="n">floor</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+ <span class="n">trunc</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">trunc</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+
+ <span class="c1"># print(평균변수값)
+</span> <span class="k">print</span><span class="p">(</span><span class="n">ceil</span> <span class="o">+</span> <span class="n">floor</span> <span class="o">+</span> <span class="n">trunc</span><span class="p">)</span>
+</code></pre></div>        </div>
+
+        <details>
+ <summary><font size="2"><span style="color:gray">해설</span></font></summary>
+ <div>
+
+            <p>np.ceil : 올림 / np.floor : 내림 / np.trunc : 버림(절사)</p>
+          </div>
+ </details>
+      </div>
+ </details>
+  </li>
+</ol>
+
+:ET

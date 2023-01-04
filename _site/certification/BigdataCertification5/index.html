@@ -357,7 +357,7 @@
   <label for="ac-toc">카테고리 Click</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">12</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">16</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       
   </ul>
@@ -446,12 +446,88 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-align-left"></i> 목차</h4></header>
-              
+              <ul class="toc__menu">
+  <li><a href="#실기-문제">실기 문제</a>
+      - {:.} <a href="#빅데이터-실기-문제-문제-및-해설">빅데이터 실기 문제 문제 및 해설</a></li>
+</ul>
 
             </nav>
           </aside>
         
-        
+        <h1 id="실기-문제">실기 문제</h1>
+<font size="2"><span style="color:gray">Introduction  </span></font>
+<hr />
+<font size="1"><span style="color:gray">실기문제는 kaggle 에 있는 [🔗 빅데이터 캐글](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr) 에 있는 내용을 사용할 예정이다.</span></font>
+
+<h3 id="빅데이터-실기-문제-문제-및-해설">빅데이터 실기 문제 문제 및 해설</h3>
+
+<ol>
+  <li>
+    <font size="2">[T1-1]  
+ 문제 : 데이터에서 IQR을 활용해 Fare 컬럼의 이상치를 찾고, 이상치 데이터의 여성 수를 구하시오.</font>
+    <details>
+ <summary><font size="2"><span style="color:gray">정답</span></font></summary>
+ <div>
+
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># 데이터 파일 읽기 예제
+</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+ <span class="n">a</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"./titanic_train.csv"</span><span class="p">)</span>
+ <span class="c1"># 사용자 코딩
+</span> <span class="n">q1</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">].</span><span class="n">quantile</span><span class="p">(.</span><span class="mi">25</span><span class="p">)</span>
+ <span class="n">q3</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">].</span><span class="n">quantile</span><span class="p">(.</span><span class="mi">75</span><span class="p">)</span>
+ <span class="n">IQR</span> <span class="o">=</span> <span class="n">q3</span><span class="o">-</span><span class="n">q1</span>
+ <span class="n">low_out</span><span class="p">,</span> <span class="n">high_out</span> <span class="o">=</span> <span class="p">(</span><span class="n">q1</span><span class="o">-</span><span class="p">(</span><span class="mf">1.5</span><span class="o">*</span><span class="n">IQR</span><span class="p">),</span> <span class="n">q3</span><span class="o">+</span><span class="p">(</span><span class="mf">1.5</span><span class="o">*</span><span class="n">IQR</span><span class="p">))</span>
+ <span class="n">low_outlier</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">]</span><span class="o">&lt;</span><span class="n">low_out</span><span class="p">]</span>
+ <span class="n">high_outlier</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">a</span><span class="p">[</span><span class="s">'Fare'</span><span class="p">]</span><span class="o">&gt;</span><span class="n">high_out</span><span class="p">]</span>
+
+ <span class="c1"># 답안 제출 예시
+</span> <span class="c1"># print(평균변수값)
+</span> <span class="k">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">high_outlier</span><span class="p">[</span><span class="n">high_outlier</span><span class="p">[</span><span class="s">'Sex'</span><span class="p">]</span><span class="o">==</span><span class="s">'female'</span><span class="p">]))</span>
+</code></pre></div>        </div>
+
+        <details>
+ <summary><font size="2"><span style="color:gray">해설</span></font></summary>
+ <div>
+
+            <p>IQR 이 문제에 나오면 <code class="language-plaintext highlighter-rouge">.quantile()</code>을 생각하자.</p>
+          </div>
+ </details>
+      </div>
+ </details>
+  </li>
+  <li>
+    <font size="2">[T1-2]  
+ 문제 : 주어진 데이터에서 이상치(소수점 나이)를 찾고 올림, 내림 버림(절사)했을 때 3가지 모두 이상치 'age' 평균을 구한 다음 모두 더하여 출력하시오.</font>
+    <details>
+ <summary><font size="2"><span style="color:gray">정답</span></font></summary>
+ <div>
+
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># 데이터 파일 읽기 예제
+</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+ <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">"./basic1.csv"</span><span class="p">)</span>
+ <span class="c1"># 사용자 코딩
+</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+ <span class="n">age</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">'age'</span><span class="p">]</span> <span class="o">-</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">'age'</span><span class="p">]))</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
+ <span class="n">ceil</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+ <span class="n">floor</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+ <span class="n">trunc</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">trunc</span><span class="p">(</span><span class="n">age</span><span class="p">[</span><span class="s">'age'</span><span class="p">]).</span><span class="n">mean</span><span class="p">()</span>
+
+ <span class="c1"># print(평균변수값)
+</span> <span class="k">print</span><span class="p">(</span><span class="n">ceil</span> <span class="o">+</span> <span class="n">floor</span> <span class="o">+</span> <span class="n">trunc</span><span class="p">)</span>
+</code></pre></div>        </div>
+
+        <details>
+ <summary><font size="2"><span style="color:gray">해설</span></font></summary>
+ <div>
+
+            <p>np.ceil : 올림 / np.floor : 내림 / np.trunc : 버림(절사)</p>
+          </div>
+ </details>
+      </div>
+ </details>
+  </li>
+</ol>
+
 
         
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -540,6 +616,134 @@
   
     <div class="page__related"> <!--site.data.ui-text[site.locale].related_label-->
       <h4 class="page__related-title">최근 글 10 개 :)</h4>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/google%20coursera/Coursera_Deeplearning_nerual/">[DL Specilization] DeepLearning - Neural Network</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.03
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#google-coursera" class="page__taxonomy-item-category" rel="tag">Google Coursera</a>
+                    
+                    
+                    <a href="/tags/#coursera" class="page__taxonomy-item-tag" rel="tag">Coursera</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#google" class="page__taxonomy-item-tag" rel="tag">Google</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/google%20coursera/Coursera_Deeplearning_intro/">[DL Specilization] DeepLearning - Introduction</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.03
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#google-coursera" class="page__taxonomy-item-category" rel="tag">Google Coursera</a>
+                    
+                    
+                    <a href="/tags/#coursera" class="page__taxonomy-item-tag" rel="tag">Coursera</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#google" class="page__taxonomy-item-tag" rel="tag">Google</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought6/">[Thought] 새로운 해 2023</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.01
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought5/">[Thought] 2022년 어떻게 보낼까</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.12.31
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
         
           <div class="list__item">
     <article class="archive-item">
@@ -757,150 +961,6 @@
       </article>
 </div>
         
-          <div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/certification/BigdataCertification1/">[Certification] 빅데이터분석기사 1장 정리본</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.19
-              <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
-                    
-                    
-                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
-                
-            </span>
-        </span>
-            </small>
-        </div>
-      </article>
-</div>
-        
-          <div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/certification/BigdataCertification/">[Certification] 빅데이터실기</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.18
-              <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
-                    
-                    
-                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
-                
-            </span>
-        </span>
-            </small>
-        </div>
-      </article>
-</div>
-        
-          <div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/deepsort/Deepsort/">[Deepsort] Deepsort 란?</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.09
-              <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#deepsort" class="page__taxonomy-item-category" rel="tag">Deepsort</a>
-                    
-                    
-                    <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#deepsort" class="page__taxonomy-item-tag" rel="tag">Deepsort</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#python" class="page__taxonomy-item-tag" rel="tag">Python</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#yolo" class="page__taxonomy-item-tag" rel="tag">Yolo</a>
-                
-            </span>
-        </span>
-            </small>
-        </div>
-      </article>
-</div>
-        
-          <div class="list__item">
-    <article class="archive-item">
-        <div>
-            <span>
-              <a href="/thought/Thought2/">[Thought] 인공지능을 공부해보자</a>
-            </span>
-            <small> 
-              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.08
-              <!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
-                    
-                    
-                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
-                
-            </span>
-        </span>
-            </small>
-        </div>
-      </article>
-</div>
-        
     </div>
   
   
@@ -943,7 +1003,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Daniel Kim. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Daniel Kim. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
