@@ -90,7 +90,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[DL Specilization] DeepLearning - Neural Network",
-        "excerpt":"Introduction Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다. 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다. 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. DeepLearning specializations Course Neural Network and Deep learning 신경망을 구축하는 방법 (심층 신경망과 데이터에 심층 신경망을 훈련 시키는 방법) asd Improving Deep...","categories": ["Google Coursera"],
+        "excerpt":"Introduction Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다. 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다. 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. Neural Network and Deep learning 딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다. What is a Nerual Network Deep learning이라는 단어는 신경망 트레이닝을 일컫는...","categories": ["Google Coursera"],
         "tags": ["DeepLearning","Study","Google","Coursera"],
         "url": "http://localhost:4000/google%20coursera/Coursera_Deeplearning_nerual/",
         "teaser": null

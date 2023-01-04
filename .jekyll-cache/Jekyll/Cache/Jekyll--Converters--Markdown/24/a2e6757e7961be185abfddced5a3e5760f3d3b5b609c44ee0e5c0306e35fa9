@@ -1,0 +1,13 @@
+I"<font size="2"> <span style="color:gray">Introduction</span></font>
+<font size="1"> <span style="color:gray">Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다.  
+복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
+수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
+
+<h2 id="neural-network-and-deep-learning"><strong>Neural Network and Deep learning</strong></h2>
+<font size="2">딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다.</font>
+
+<h3 id="what-is-a-nerual-network"><strong>What is a Nerual Network</strong></h3>
+<p>Deep learning이라는 단어는 <code class="language-plaintext highlighter-rouge">신경망 트레이닝</code>을 일컫는 말이다.<br />
+집값 예측을 예시로 들면 다음과 같다.<br />
+<img src="./2023-01-04-13-01-03.png" alt="" width="20%" height="20%" align="left" /></p>
+:ET
