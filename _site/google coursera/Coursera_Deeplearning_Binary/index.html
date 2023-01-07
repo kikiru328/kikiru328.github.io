@@ -1,0 +1,1069 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <!--폰트 : "Nanum Gothic Coding", "Coming Soon"-->
+    <!-- <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nanum+Gothic+Coding&display=swap"> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nanum+Gothic+Coding&display=swap"> -->
+    
+    <!-- 폰트 : "Nanum Brush Script " -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+
+    
+    <!--폰트 : "Iropke Batang"-->
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css">
+
+    <!--폰트 : "Cafe24Oneprettynight"-->
+    
+    <!--main.scss 조금이라도 빨리 로드 되길.. preload-->
+    <link rel="preload" as="style" href="/assets/css/main.css">
+
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[DL Specilization] DeepLearning - Neural Network - 오월의 기록</title>
+<meta name="description" content="Google Coursera - DeepLearning Nerual Network ">
+
+
+  <meta name="author" content="오월이 주인 🐾">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="오월의 기록">
+<meta property="og:title" content="[DL Specilization] DeepLearning - Neural Network">
+<meta property="og:url" content="http://localhost:4000/google%20coursera/Coursera_Deeplearning_Binary/">
+
+
+  <meta property="og:description" content="Google Coursera - DeepLearning Nerual Network ">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/IMG.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2023-01-03T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/google%20coursera/Coursera_Deeplearning_Binary/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Daniel Kim",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="오월의 기록 Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="shortcut icon" href="/img/favi/favicon.ico" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+<link
+  rel="icon"
+  type="image/png"
+  sizes="192x192"
+  href="/android-icon-192x192.png"
+/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+<meta name="theme-color" content="#ffffff" />
+
+<!-- end custom head snippets -->
+
+    <!-- 스크롤바 커스터마이징 -->
+    <style> 
+      ::-webkit-scrollbar{width: 16px;}
+      ::-webkit-scrollbar-track {background-color:#4b4f52; border-radius: 16px;}
+      ::-webkit-scrollbar-thumb {background-color:#5e6265; border-radius: 16px;}
+      ::-webkit-scrollbar-thumb:hover {background: #ffd24c;}
+      ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment 
+      {
+          width:12px;height:12px;background:transparent;}
+      }  
+
+      
+    </style>
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          오월의 기록
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/index.html">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Category</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">카테고리 Click</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#google-coursera" itemprop="item"><span itemprop="name">Google coursera</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">[DL Specilization] DeepLearning - Neural Network</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="https://avatars.githubusercontent.com/u/60537388?s=400&u=35599c66321ab6783bdb8317c44b908f23b2f810&v=4" alt="오월이 주인 🐾" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">오월이 주인 🐾</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>반갑습니다 :)</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:kikiru328k@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/kikiru328" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+
+  
+    
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">카테고리 Click</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">17</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
+      </li>
+      
+  </ul>
+</nav>
+
+
+  
+
+  </div>
+
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[DL Specilization] DeepLearning - Neural Network">
+    <meta itemprop="description" content="Google Coursera - DeepLearning Nerual Network">
+    <meta itemprop="datePublished" content="2023-01-03T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">[DL Specilization] DeepLearning - Neural Network
+</h1>
+          
+            <p class="page__meta"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Date:</strong> <time datetime="2023-01-03T00:00:00+09:00">2023.01.03</time></p>
+          
+          
+            
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#google-coursera" class="page__taxonomy-item-category" rel="tag">Google Coursera</a>
+    
+    </span>
+  </p>
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#coursera" class="page__taxonomy-item-tag" rel="tag">Coursera</a><span class="sep"> </span>
+    
+      
+      
+      <a href="/tags/#google" class="page__taxonomy-item-tag" rel="tag">Google</a><span class="sep"> </span>
+    
+      
+      
+      <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a><span class="sep"> </span>
+    
+      
+      
+      <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a>
+    
+    </span>
+  </p>
+
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-align-left"></i> 목차</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#neural-network-and-deep-learning">Neural Network and Deep learning</a>
+    <ul>
+      <li><a href="#what-is-a-nerual-network">What is a Nerual Network</a></li>
+      <li><a href="#supervised-learning-with-neural-network">Supervised Learning with Neural Network</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <font size="2"> <span style="color:gray">Introduction</span></font>
+<font size="1"> <span style="color:gray">Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다.  
+복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
+수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
+
+<h1 id="neural-network-and-deep-learning"><strong>Neural Network and Deep learning</strong></h1>
+<hr />
+
+<font size="2">딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다.</font>
+
+<h2 id="what-is-a-nerual-network"><strong>What is a Nerual Network</strong></h2>
+<p>Deep learning이라는 단어는 <code class="language-plaintext highlighter-rouge">신경망 트레이닝</code>을 일컫는 말이다.<br />
+집값 예측을 예시로 들면 다음과 같다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/210482955-1f4bcefb-1847-492c-a010-99cb3173a858.png" alt="" width="400" height="400" align="left" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/60537388/210483046-5cfb8c86-72ca-4757-a221-754f300d04ce.png" alt="" width="400" height="400" align="center" /><br />
+<br /><br />
+집 크기와 집값의 관계에서 파란색 선형함수는 우측의 node가 구현하게 된다. 이 것이 가장 기초적인 신경망의 단계이다.</p>
+<details>
+<summary><font size="2">RELU?</font></summary>
+<div>
+    <p><span style="color:skyblue">때때로 0이 되고 또한 직선으로 작용하는 함수는 Relu함수라고 일컫는다. Rectified Linear Unit</span></p>
+  </div>
+</details>
+<p><br />
+이 처럼 단순한 신경망의 단계가 여러 변수와 함께 적용이 되면 다음과 같다.<br />
+<img src="https://user-images.githubusercontent.com/60537388/210484141-416e5075-d0dc-4906-ab70-23e206459e63.png" alt="" align="center" />
+<br />
+좌측 총 4개의 변수가 숨겨진 노드(은닉층)에 특성을 부여하고, 특성에 맞는 마지막 노드(출력층)에서 결과를 예측할 수 있다. 모든 노드에 특성이 연결되어 있어 <code class="language-plaintext highlighter-rouge">신경망</code>이라고 불린다.</p>
+
+<h2 id="supervised-learning-with-neural-network"><strong>Supervised Learning with Neural Network</strong></h2>
+<p>지도 학습에서는 일부 입력값 x와 출력값 y에 대한 함수 매핑을 의미<br />
+따라 무엇이 X, Y 가 되는지 면밀히 살펴보고 정해야한다.</p>
+
+<p>지도학습 딥러닝은 다음과 같다</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Input(x)</th>
+      <th style="text-align: center">Output(y)</th>
+      <th style="text-align: center">Application</th>
+      <th style="text-align: center">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Home Features</td>
+      <td style="text-align: center">Price</td>
+      <td style="text-align: center">Real Estate</td>
+      <td style="text-align: center">Standard N.N</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Ad, user info</td>
+      <td style="text-align: center">Click on ad (0/1)</td>
+      <td style="text-align: center">Online Advertising</td>
+      <td style="text-align: center">Standard N.N</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Image</td>
+      <td style="text-align: center">Object(1,,1000)</td>
+      <td style="text-align: center">Photo tagging</td>
+      <td style="text-align: center">CNN</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Audio</td>
+      <td style="text-align: center">Text transcript</td>
+      <td style="text-align: center">Speech recognition</td>
+      <td style="text-align: center">RNN</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">English</td>
+      <td style="text-align: center">Chinese</td>
+      <td style="text-align: center">Machine Learning</td>
+      <td style="text-align: center">RNN</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Image, Radar info</td>
+      <td style="text-align: center">Postion of other cars</td>
+      <td style="text-align: center">Autonomous driving</td>
+      <td style="text-align: center">Cusuomal Hybrid</td>
+    </tr>
+  </tbody>
+</table>
+
+
+        
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        
+        <p></p>
+        <h4 class="page__meta-title"><span style="font-family:'Coming Soon'; color:#fcd14f;">Google Coursera</span> <span style="font-family:'Cafe24Oneprettynight';">카테고리 내 다른 글 보러가기</span></h4>
+        <!--
+
+  <nav class="pagination">
+    
+      <a href="/thought/Thought6/" class="pagination--pager" title="[Thought] 새로운 해 2023
+">이전</a>
+    
+    
+      <a href="/google%20coursera/Coursera_Deeplearning_intro/" class="pagination--pager" title="[DL Specilization] DeepLearning - Introduction
+">다음</a>
+    
+  </nav>
+
+-->
+
+
+
+
+  
+
+  
+
+  
+  	
+  	
+  	
+  	
+  	
+
+
+  <nav class="pagination_prev_next">
+    
+      <a href="#" class="pagination_prev_next--pager disabled-first-child">첫 번째 글입니다</a>
+    
+    
+      <a href="/google%20coursera/Coursera_Deeplearning_intro/" class="pagination_prev_next--pager"><span class="prev_next">다음 글  &nbsp  </span>[DL Specilization] DeepLearning - Introduction</a>
+    
+  </nav>
+
+
+<!--
+
+
+
+-->
+
+
+
+        <p></p>
+
+        <!-- archive 중간 광고 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+            data-ad-client="ca-pub-6111782407607310"
+            data-ad-slot="5458515780"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </section>
+      <footer class="page__meta">
+        
+        <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%5BDL+Specilization%5D+DeepLearning+-+Neural+Network%20http%3A%2F%2Flocalhost%3A4000%2Fgoogle%2520coursera%2FCoursera_Deeplearning_Binary%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fgoogle%2520coursera%2FCoursera_Deeplearning_Binary%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fgoogle%2520coursera%2FCoursera_Deeplearning_Binary%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      </footer>
+    </div>
+
+    
+
+  </article>
+
+  
+  
+    <div class="page__related"> <!--site.data.ui-text[site.locale].related_label-->
+      <h4 class="page__related-title">최근 글 10 개 :)</h4>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/google%20coursera/Coursera_Deeplearning_nerual/">[DL Specilization] DeepLearning - Binary Classification</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.03
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#google-coursera" class="page__taxonomy-item-category" rel="tag">Google Coursera</a>
+                    
+                    
+                    <a href="/tags/#coursera" class="page__taxonomy-item-tag" rel="tag">Coursera</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#google" class="page__taxonomy-item-tag" rel="tag">Google</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/google%20coursera/Coursera_Deeplearning_intro/">[DL Specilization] DeepLearning - Introduction</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.03
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#google-coursera" class="page__taxonomy-item-category" rel="tag">Google Coursera</a>
+                    
+                    
+                    <a href="/tags/#coursera" class="page__taxonomy-item-tag" rel="tag">Coursera</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#deeplearning" class="page__taxonomy-item-tag" rel="tag">DeepLearning</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#google" class="page__taxonomy-item-tag" rel="tag">Google</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought6/">[Thought] 새로운 해 2023</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2023.01.01
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought5/">[Thought] 2022년 어떻게 보낼까</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.12.31
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought4/">[Thought] 개발분야를 정해야하겠지?</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.12.10
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/thought/Thought3/">[Thought] 개발분야를 정해야하겠지?</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.12.10
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#thought" class="page__taxonomy-item-category" rel="tag">Thought</a>
+                    
+                    
+                    <a href="/tags/#essay" class="page__taxonomy-item-tag" rel="tag">Essay</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#thought" class="page__taxonomy-item-tag" rel="tag">Thought</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/certification/BigdataCertification5/">[Certification] 빅데이터 실기 Kaggle</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.29
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
+                    
+                    
+                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/certification/BigdataCertification_Q/">[Certification] 빅데이터 실기 단답형 문제 모음</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.23
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
+                    
+                    
+                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/certification/BigdataCertification4/">[Certification] 빅데이터분석기사 4장 정리본</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.22
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
+                    
+                    
+                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+          <div class="list__item">
+    <article class="archive-item">
+        <div>
+            <span>
+              <a href="/certification/BigdataCertification3/">[Certification] 빅데이터분석기사 3장 정리본</a>
+            </span>
+            <small> 
+              <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"> </i> 2022.11.21
+              <!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#certification" class="page__taxonomy-item-category" rel="tag">Certification</a>
+                    
+                    
+                    <a href="/tags/#bigdata" class="page__taxonomy-item-tag" rel="tag">BigData</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#certification" class="page__taxonomy-item-tag" rel="tag">Certification</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#dl" class="page__taxonomy-item-tag" rel="tag">DL</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#ml" class="page__taxonomy-item-tag" rel="tag">ML</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#study" class="page__taxonomy-item-tag" rel="tag">Study</a>
+                
+            </span>
+        </span>
+            </small>
+        </div>
+      </article>
+</div>
+        
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ansohxxn.github.io -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6111782407607310"
+     data-ad-slot="5978510098"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/kikiru328" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Daniel Kim. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <aside class="sidebar__top">
+      <a href="#site-nav"> <i class="fas fa-angle-double-up fa-2x"></i></a>
+    </aside>
+
+    
+<script src="/assets/js/main.min.js"></script>
+<script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+   
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'kikiru328/Dev_log.Study');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-dark');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  id="MathJax-script"
+  defer
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
+
+
+  </body>
+</html>

@@ -1,5 +1,5 @@
 ---
-title : "[DL Specilization] DeepLearning - Neural Network"
+title : "[DL Specilization] DeepLearning - Binary Classification"
 excerpt : "Google Coursera - DeepLearning Nerual Network"
 
 categories: 
@@ -18,45 +18,52 @@ last_modified_dat : 2023-01-03
 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
 수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
 
-# **Neural Network and Deep learning**
+# **Basic of Neural Network Programming**
 ---
 
-<font size='2'>딥러닝의 기본과 신경망 트레이닝에 대해서 학습합니다.</font>  
+<font size='2'>딥러닝의 기본에 대해서 학습합니다.</font>  
 
-## **What is a Nerual Network**
-Deep learning이라는 단어는 `신경망 트레이닝`을 일컫는 말이다.  
-집값 예측을 예시로 들면 다음과 같다.  
+## **Binary Classification Programming**
 
-![](https://user-images.githubusercontent.com/60537388/210482955-1f4bcefb-1847-492c-a010-99cb3173a858.png){: width="400" height="400" align="left" }  
+머신러닝, 혹은 딥러닝을 훈련시키는 과정에서 사용되는 X 데이터와 Y 데이터의 설명이다.  
+![](https://user-images.githubusercontent.com/60537388/210516486-849e1d94-feeb-40a5-975f-de10388a428a.png){: align-center}
 
-![](https://user-images.githubusercontent.com/60537388/210483046-5cfb8c86-72ca-4757-a221-754f300d04ce.png){: width="400" height="400" align="center" }  
-<br/><br/>
-집 크기와 집값의 관계에서 파란색 선형함수는 우측의 node가 구현하게 된다. 이 것이 가장 기초적인 신경망의 단계이다.  
-<details>
-<summary><font size='2'>RELU?</font></summary>
-<div markdown='1'>
-<span style='color:skyblue'>때때로 0이 되고 또한 직선으로 작용하는 함수는 Relu함수라고 일컫는다. Rectified Linear Unit</span>
-</div>
-</details>  
-<br/>
-이 처럼 단순한 신경망의 단계가 여러 변수와 함께 적용이 되면 다음과 같다.  
-![](https://user-images.githubusercontent.com/60537388/210484141-416e5075-d0dc-4906-ab70-23e206459e63.png){: align="center" }
-<br/>
-좌측 총 4개의 변수가 숨겨진 노드(은닉층)에 특성을 부여하고, 특성에 맞는 마지막 노드(출력층)에서 결과를 예측할 수 있다. 모든 노드에 특성이 연결되어 있어 `신경망`이라고 불린다.
+하나의 훈련 표본은 (x,y)로 구성되어 있다. 여기서 x는 x 차원을 가진 feature vector이며 y는 0 혹은 1 중 하나의 값을 갖는다.  
+머신러닝에서 사용하는 Train 데이터, Test 데이터는 간략하게
+Mtraing, Mtest 라고 정의한다.  
+
+Train 데이터 내용에선, Label Vector 인 Y값을 제외한 X는 nx열을 m개로 행렬을 구성하고 있다 (nx, m).  
+이는 `python`에서 아래와 같이 확인 할 수 있다.  
+```python
+X_train.shape
+> (nx , m)
+```
+Label Vector인 Y 데이터는 단일 행으로 존재하기 때문에 (1 * m) 행렬을 갖고 있다.
+```python
+Y_train.shape
+> (1, m)
+```
+
+## **Logistic Regression**  
+로지스틱 회귀는 지도 학습 문제에서 결과값 Label Y가 0 혹은 1 인 경우 사용하는 학습 알고리즘이다.  
+
+X 값에 따라 원하는 값은 \\(\hat{y}\\) (y hat) 이므로   
+\\[\hat{y} = P(y=1 | x)\\]
+X에 따라 \\(y=1\\)이 될 기댓값은 \\(0 \leqq \hat{y} \leqq 1 \\)이 될 것이다. 
+
+Logistic Regression은 두 파라미터를 갖는데,  
+\\(X\in R^{nx * m} \\)일 때,  
+\\(w\in R^{nx} \\)와 상수 \\(b\in R \\)를 갖는다.  
+따라 `Output` = \\(\hat{y} = w^{T}x + b\\)라고 볼 수 있다.  
+
+하지만 `\\(w^{T}x + b\\)는 x에 따라 음수 혹은 1이상을 나타낸다.  
+따라서 `Sigmoid` 함수를 사용하게 된다.  
+
+\\[Z = (w^{T}x + b)\\]
+\\[Sigmoid = \sigma(w^{T}x + b) = \sigma(Z)\\]
+\\[\sigma(x) = \frac{1}{1+e^{-z}}\\]
 
 
-## **Supervised Learning with Neural Network**
-지도 학습에서는 일부 입력값 x와 출력값 y에 대한 함수 매핑을 의미  
-따라 무엇이 X, Y 가 되는지 면밀히 살펴보고 정해야한다.  
-
-지도학습 딥러닝은 다음과 같다  
-
-|Input(x)|Output(y)|Application|Type|
-|:---:|:---:|:---:|
-|Home Features|Price|Real Estate|Standard N.N|
-|Ad, user info|Click on ad (0/1)|Online Advertising | Standard N.N|
-|Image|Object(1,,1000)|Photo tagging|CNN
-|Audio|Text transcript|Speech recognition|RNN|
-|English|Chinese|Machine Learning|RNN|
-|Image, Radar info|Postion of other cars|Autonomous driving|Cusuomal Hybrid|
+위 함수로 `Sigmoid` 함수 그래프는 아래와 같다.  
+![](https://user-images.githubusercontent.com/60537388/210531317-f609523f-b3ba-42ac-9ab3-56840a9316d6.png){: width="40%" height="40%" align-center}
 

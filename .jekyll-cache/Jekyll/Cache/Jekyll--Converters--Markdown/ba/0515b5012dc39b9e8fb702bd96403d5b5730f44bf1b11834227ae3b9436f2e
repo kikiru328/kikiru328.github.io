@@ -1,0 +1,35 @@
+I"X
+<font size="2"> <span style="color:gray">Introduction</span></font>
+<font size="1"> <span style="color:gray">Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되었다.  
+복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.  
+수업은 모두 [Google Coursera](https://www.coursera.org/specializations/deep-learning)에서 진행하며, `DeepLearning.AI`에서 제공한다. </span></font>
+
+<h1 id="basic-of-neural-network-programming"><strong>Basic of Neural Network Programming</strong></h1>
+<hr />
+
+<font size="2">딥러닝의 기본에 대해서 학습합니다.</font>
+
+<h2 id="binary-classification-programming"><strong>Binary Classification Programming</strong></h2>
+
+<p>머신러닝, 혹은 딥러닝을 훈련시키는 과정에서 사용되는 X 데이터와 Y 데이터의 설명이다.<br />
+<img src="https://user-images.githubusercontent.com/60537388/210516486-849e1d94-feeb-40a5-975f-de10388a428a.png" alt="" /></p>
+
+<p>하나의 훈련 표본은 (x,y)로 구성되어 있다. 여기서 x는 x 차원을 가진 feature vector이며 y는 0 혹은 1 중 하나의 값을 갖는다.<br />
+머신러닝에서 사용하는 Train 데이터, Test 데이터는 간략하게
+Mtraing, Mtest 라고 정의한다.</p>
+
+<p>Train 데이터 내용에선, Label Vector 인 Y값을 제외한 X는 nx열을 m개로 행렬을 구성하고 있다 (nx, m).<br />
+이는 <code class="language-plaintext highlighter-rouge">python</code>에서 아래와 같이 확인 할 수 있다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">X_train</span><span class="p">.</span><span class="n">shape</span>
+<span class="o">&gt;</span> <span class="p">(</span><span class="n">nx</span> <span class="p">,</span> <span class="n">m</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Label Vector인 Y 데이터는 단일 행으로 존재하기 때문에 (1 * m) 행렬을 갖고 있다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Y_train</span><span class="p">.</span><span class="n">shape</span>
+<span class="o">&gt;</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="logistic-regression"><strong>Logistic Regression</strong></h2>
+<p>로지스틱 회귀는 지도 학습 문제에서 결과값 Label Y가 0 혹은 1 인 경우 사용하는 학습 알고리즘이다.</p>
+
+<p>X 값에 따라 원하는 값은 \(y^{}\)</p>
+:ET
