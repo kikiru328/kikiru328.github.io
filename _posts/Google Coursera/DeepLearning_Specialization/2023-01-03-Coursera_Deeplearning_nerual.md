@@ -67,3 +67,7 @@ Logistic Regression은 두 파라미터를 갖는데,
 위 함수로 `Sigmoid` 함수 그래프는 아래와 같다.  
 ![](https://user-images.githubusercontent.com/60537388/210531317-f609523f-b3ba-42ac-9ab3-56840a9316d6.png){: width="40%" height="40%" align-center}
 
+
+
+
+
