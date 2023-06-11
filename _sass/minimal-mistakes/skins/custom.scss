@@ -1,0 +1,61 @@
+/* ==========================================================================
+   custom_Dark skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #1c1c1c !default;
+$text-color: #e7e5e5 !default;
+// $primary-color: #ffbf00 !default;
+$primary-color: mix(#e9af00, $text-color, 90%) !default;
+$border-color: mix(#fff, $background-color, 20%) !default;
+// $code-background-color: #4d5357 !default;
+$code-background-color: rgba(#4d5357, 0.5) !default;
+$code-background-color-dark: #3f4447 !default;
+$form-background-color: mix(#000, $background-color, 15%) !default;
+$footer-background-color: mix(#000, $background-color, 20%) !default;
+$link-color: mix(#005990, $text-color, 60%) !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#005990, $text-color, 40%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* fonts */
+$serif: "KyoboHandwriting2021sjy", Georgia, Times, serif !default;
+
+$sans-serif: "RIDIBatang", -apple-system, BlinkMacSystemFont, "Roboto",
+  "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default; // base body font
+
+$monospace: "Nanum Gothic Coding", Monaco, Consolas, "Lucida Console", monospace !default;
+
+$round: "Cafe24Oneprettynight" !default;
+// $handwriting: "KyoboHandwriting2021sjy" !default;
+$handwriting: "KyoboHandwriting2020A" !default;
+$sans-serif-narrow: $sans-serif !default;
+//
+$helvetica: "Cafe24Oneprettynight", Helvetica, "Helvetica Neue", Arial,
+  sans-serif !default;
+
+/* Contents */
+// notices >
+$notice-font-family: $handwriting !default;
+
+$notice-default-color: $background-color !default;
+$notice-info-color: #ffffff !default;
+$notice-primary-color: #e9af00 !default;
+$notice-warning-color: #fce835 !default;
+$notice-success-color: #0b6c00 !default;
+$notice-danger-color: #980000 !default;
+
+// Content colors .navigation > .toc > .nav__title
+$nav_title_text_color: mix($text-color, #000, 90%) !default;
+$nav__title_color: rgba(mix($background-color, $text-color, 50%), 0.5) !default;
+
+ㄴ .author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}

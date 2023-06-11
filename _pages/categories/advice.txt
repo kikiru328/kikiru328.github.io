@@ -1,0 +1,18 @@
+category 생성시
+_includes / nav_list_main 들어가서 comment 보기
+
+
+---
+title: "한번에 보여질 category 이름"
+layout: archive
+permalink: categories/ category path
+author_profile: true
+sidebar_main: true
+---
+
+<!-- 공백이 포함되어 있는 카테고리 이름의 경우 site.categories['a b c'] 이런식으로! -->
+
+***
+
+{% assign posts = site.categories['category 이름'] %}
+{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

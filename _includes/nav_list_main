@@ -1,0 +1,76 @@
+{% assign sum = site.posts | size %}
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <li>
+            📂 <span style="font-family:'KyoboHandwriting2020A';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'KyoboHandwriting2020A';">개</style> 
+      </li>
+      <li>
+        {%comment%}
+        <span class="nav__sub-title">보여줄 큰 카테고리 - 상관없음</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "post 가장 main category tag" %} 
+                        <li><a href="/categories/카테고리 (path)" class="">보여줄 하부 카테고리 이름 - 상관없음({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endcomment %}
+        <span class="nav__sub-title">Study</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CourseraDL" %} 
+                        <li><a href="/categories/CourseraDL" class="">Coursera DL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ComputerScience" %} 
+                        <li><a href="/categories/ComputerScience" class="">Computer Sciences ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>                        
+
+        <span class="nav__sub-title">Documents</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Vision" %} 
+                        <li><a href="/categories/Vision" class="">Vision ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Certification</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BigData" %} 
+                        <li><a href="/categories/BigData" class="">BigData ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>         
+
+        <span class="nav__sub-title">WEB</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "HTML" %} 
+                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CSS" %} 
+                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>               
+      <li>	
+            <br>      
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkikiru328&count_bg=%23D3BDA7&title_bg=%234F3B1A&icon=&icon_color=%234F3B1A&title=Visitor&edge_flat=false">
+      </li>   
+  </ul>
+</nav>
+

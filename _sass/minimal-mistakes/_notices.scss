@@ -1,0 +1,136 @@
+/* ==========================================================================
+   NOTICE TEXT BLOCKS
+   ========================================================================== */
+
+/**
+ *  Default Kramdown usage (no indents!):
+ *  <div class="notice" markdown="1">
+ *  #### Headline for the Notice
+ *  Text for the notice
+ *  </div>
+ */
+
+@mixin notice($notice-color) {
+  margin: 2em 0 !important; /* override*/
+  padding: 1em;
+  // color: $dark-gray;
+  color: #000;
+  font-family: $notice-font-family;
+  font-size: $type-size-6 !important;
+  text-indent: initial; /* override*/
+  // background-color: mix(#fff, $notice-color, 90%);
+  @if ($notice-color==$notice-default-color) {
+    background-color: rgba(mix($notice-color, #fff, 40%), 0.1);
+    color: rgba($text-color, 0.6);
+  } @else {
+    background-color: rgba(mix($notice-color, #fff, 40%), 0.7);
+  }
+  border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
+
+  h4 {
+    margin-top: 0 !important; /* override*/
+    margin-bottom: 0.75em;
+  }
+
+  @at-root .page__content #{&} h4 {
+    /* using at-root to override .page-content h4 font size*/
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0 !important; /* override*/
+    }
+  }
+
+  h4 + p {
+    /* remove space above paragraphs that appear directly after notice headline*/
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  a {
+    @if ($notice-color == $notice-default-color) {
+      color: mix(#fff, rgba($text-color, 0.6), 70%);
+    } @else if($notice-color == $notice-info-color) {
+      color: $notice-color;
+    } @else if ($notice-color == $notice-primary-color) {
+      color: mix($notice-color, #fff, 80%);
+    } @else if ($notice-color == $notice-warning-color) {
+      color: mix($notice-color, #fff, 50%);
+    } @else if ($notice-color == $notice-success-color) {
+      color: $notice-color;
+    } @else if ($notice-color == $notice-danger-color) {
+      color: $notice-color;
+    }
+    font-weight: bold;
+    // color: $notice-color;
+
+    &:hover {
+      @if ($notice-color == $notice-default-color) {
+        color: mix(#000, $notice-color, 40%);
+      } @else {
+        color: #fff;
+      }
+
+      font-weight: bold;
+    }
+  }
+
+  code {
+    @if ($notice-color == $notice-default-color) {
+      background-color: mix(#fff, $notice-color, 5%);
+    } @else {
+      background-color: rgba(mix($notice-color, #fff, 70%), 0.5);
+    }
+  }
+
+  pre code {
+    background-color: inherit;
+  }
+
+  ul {
+    &:last-child {
+      margin-bottom: 0; /* override*/
+    }
+  }
+}
+
+/* Default notice */
+
+.notice {
+  // @include notice($light-gray);
+  @include notice($notice-default-color);
+}
+
+/* Primary notice */
+
+.notice--primary {
+  @include notice($notice-primary-color);
+}
+
+/* Info notice */
+
+.notice--info {
+  @include notice($notice-info-color);
+}
+
+/* Warning notice */
+
+.notice--warning {
+  @include notice($notice-warning-color);
+}
+
+/* Success notice */
+
+.notice--success {
+  @include notice($notice-success-color);
+}
+
+/* Danger notice */
+
+.notice--danger {
+  @include notice($notice-danger-color);
+}
