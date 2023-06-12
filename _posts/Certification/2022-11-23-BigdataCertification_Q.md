@@ -1,5 +1,5 @@
 ---
-title : '[Certification] 빅데이터 실기 단답형 문제 모음' 
+title : '[빅분기] 빅데이터 실기 단답형 문제 모음' 
 excerpt : "빅데이터 실기 공부"
 categories: 
  - BigData
@@ -232,10 +232,10 @@ last_modified_dat : 2022-11-23
 
     <span style='color:red'><u>실시간 데이터를 수집</u></span> == <span style='color:red'><u>스크라이브 (Scribe)</u></span>  
     `Sqoop`과의 차이는 Sqoop은 정형데이터, Scribe는 비정형데이터를 수집한다.  
-    |수집시스템|데이터종류|
-    |:---:|---:|
-    |Sqoop|정형데이터|
-    |Scribe|비정형데이터|
+    | 수집시스템 |   데이터종류 |
+    | :--------: | -----------: |
+    |   Sqoop    |   정형데이터 |
+    |   Scribe   | 비정형데이터 |
 
 
     </details>

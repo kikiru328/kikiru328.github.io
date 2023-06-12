@@ -1,5 +1,5 @@
 ---
-title: "Web Front Basic"
+title: "HTML"
 layout: archive
 permalink: categories/HTML
 author_profile: true

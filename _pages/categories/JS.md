@@ -1,7 +1,7 @@
 ---
-title: "CSS"
+title: "JS"
 layout: archive
-permalink: categories/CSS
+permalink: categories/JS
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['CSS'] %}
+{% assign posts = site.categories['JS'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -1,5 +1,5 @@
 ---
-title : '[Certification] 빅데이터실기' 
+title : '[빅분기] 빅데이터실기' 
 excerpt : "빅데이터 실기 공부 시작"
 categories: 
  - BigData

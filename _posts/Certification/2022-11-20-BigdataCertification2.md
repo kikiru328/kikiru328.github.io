@@ -1,5 +1,5 @@
 ---
-title : '[Certification] 빅데이터분석기사 2장 정리본' 
+title : '[빅분기] 빅데이터분석기사 2장 정리본' 
 excerpt : "빅데이터 실기 필기"
 categories: 
  - BigData

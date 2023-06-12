@@ -47,12 +47,12 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BigData" %} 
-                        <li><a href="/categories/BigData" class="">BigData ({{category[1].size}})</a></li>
+                        <li><a href="/categories/BigData" class="">빅데이터분석기사 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>         
 
-        <span class="nav__sub-title">WEB</span>
+        <span class="nav__sub-title">Front</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %} 
