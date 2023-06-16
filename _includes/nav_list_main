@@ -74,6 +74,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            
         <span class="nav__sub-title">Tips</span>
             <ul>
                 {% for category in site.categories%}
