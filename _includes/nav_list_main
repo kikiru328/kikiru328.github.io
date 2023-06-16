@@ -73,7 +73,15 @@
                         <li><a href="/categories/JS" class="">JS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>                    
+            </ul>
+        <span class="nav__sub-title">Tips</span>
+            <ul>
+                {% for category in site.categories%}
+                    {% if category[0] == "Tips" %} 
+                        <li><a href="/categories/Tips" class="">Tips ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>                                
       <li>	
             <br>      
             <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkikiru328&count_bg=%23D3BDA7&title_bg=%234F3B1A&icon=&icon_color=%234F3B1A&title=Visitor&edge_flat=false">
