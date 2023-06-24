@@ -14,16 +14,30 @@
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   // color: $dark-gray;
-  color: #000;
+  color: #fff;
   font-family: $notice-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
   // background-color: mix(#fff, $notice-color, 90%);
   @if ($notice-color==$notice-default-color) {
     background-color: rgba(mix($notice-color, #fff, 40%), 0.1);
-    color: rgba($text-color, 0.6);
-  } @else {
+    color: #fff;
+  } @else if ($notice-color==$notice-primary-color) {
     background-color: rgba(mix($notice-color, #fff, 40%), 0.7);
+    color: #000;
+  } @else if ($notice-color==$notice-info-color) {
+    background-color: rgba(mix($notice-color, #fff, 40%), 0.7);
+    color: #000;
+  } @else if ($notice-color==$notice-warning-color) {
+    background-color: rgba(mix(#ffe100, #000, 90%), 0.8);
+    color: mix(#fff, #000, 0.5);
+  } @else if ($notice-color==$notice-danger-color) {
+    background-color: rgba(mix($notice-color, #fff, 80%), 0.9);
+  } @else if ($notice-color==$notice-success-color) {
+    background-color: rgba(mix($notice-color, #fff, 60%), 0.7);
+  } @else {
+    background-color: rgba(mix($notice-color, #fff, 80%), 0.1);
+    color: #fff;
   }
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
@@ -70,7 +84,7 @@
 
     &:hover {
       @if ($notice-color == $notice-default-color) {
-        color: mix(#000, $notice-color, 40%);
+        color: mix(#fff, $notice-color, 40%);
       } @else {
         color: #fff;
       }

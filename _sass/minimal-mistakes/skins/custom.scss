@@ -42,7 +42,7 @@ $notice-font-family: $handwriting !default;
 
 $notice-default-color: $background-color !default;
 $notice-info-color: #ffffff !default;
-$notice-primary-color: #e9af00 !default;
+$notice-primary-color: mix(#e9af00, $text-color, 90%) !default;
 $notice-warning-color: #fce835 !default;
 $notice-success-color: #0b6c00 !default;
 $notice-danger-color: #980000 !default;
