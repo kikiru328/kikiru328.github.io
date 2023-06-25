@@ -122,3 +122,8 @@ if __name__ == '__main__':
 <div class='notice--info' markdown='1'>
 다음에는 mutlithreading을 사용해보고 올려보도록 해야겠다.
 </div>
+
+```
+✏️ 개인 공부 기록용 블로그입니다! 틀린 부분이 있으면 언제든지 댓글로 알려주세요!
+👍 항상 감사합니다!
+```

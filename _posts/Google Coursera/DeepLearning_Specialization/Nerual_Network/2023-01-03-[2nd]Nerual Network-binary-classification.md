@@ -311,3 +311,9 @@ J = J/m, dw_1 = dw_1/m, dw_2 = dw_2m, db = db/m
 \\[\tag{2} \frac{da}{dz} = \frac{d}{dz}\underbrace{\sigma(z)}_{a} = \sigma(z) \times (1-\sigma(z)) = a(1-a) \\]
 
 \\[\tag{3} \frac{d\mathscr{L}}{dz} = \frac{d\mathscr{L}}{da}\times\frac{da}{dz} = \frac{a-y}{a(1-a)}\times a(1-a) = a-y\\]
+
+
+```
+✏️ 개인 공부 기록용 블로그입니다! 틀린 부분이 있으면 언제든지 댓글로 알려주세요!
+👍 항상 감사합니다!
+```

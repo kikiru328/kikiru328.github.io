@@ -30,3 +30,7 @@ last_modified_dat : 2022-11-18
 실기는 문제를 직접 만들기 어려웠기 때문에  [🔗 빅데이터 캐글](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr) 을 사용하려고 한다.  
 필요하시면 거기서 보는걸 추천드립니다.
 
+```
+✏️ 개인 공부 기록용 블로그입니다! 틀린 부분이 있으면 언제든지 댓글로 알려주세요!
+👍 항상 감사합니다!
+```

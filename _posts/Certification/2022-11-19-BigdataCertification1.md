@@ -415,3 +415,8 @@ Operatinal Data Store
 #### **<u>[H카탈로그 HCatalog]</u>**
 > <span style='color:skyblue'><u>테이블 뷰</u></span>제공  
 > Pig, Hive (데이터 처리도구)간의 테이블, 저장공간 관리 계층 제
+
+```
+✏️ 개인 공부 기록용 블로그입니다! 틀린 부분이 있으면 언제든지 댓글로 알려주세요!
+👍 항상 감사합니다!
+```

@@ -60,3 +60,8 @@ Deep learning이라는 단어는 `신경망 트레이닝`을 일컫는 말이다
 |       Audio       |    Text transcript    | Speech recognition |       RNN       |
 |      English      |        Chinese        |  Machine Learning  |       RNN       |
 | Image, Radar info | Postion of other cars | Autonomous driving | Cusuomal Hybrid |
+
+```
+✏️ 개인 공부 기록용 블로그입니다! 틀린 부분이 있으면 언제든지 댓글로 알려주세요!
+👍 항상 감사합니다!
+```
