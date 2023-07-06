@@ -6,7 +6,7 @@ categories:
   - CourseraDL
 tags:
   - [Nerual Network, Study, Google, DeepLearning]
-
+  
 toc: true
 toc_sticky: true
 
