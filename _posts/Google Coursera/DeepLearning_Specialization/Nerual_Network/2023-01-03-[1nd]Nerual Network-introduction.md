@@ -19,7 +19,7 @@ Google Coursera에서 무료로 Deep Learning 수업을 하는 것을 알게되�
 복습과 예습, 그리고 부족한 부분을 채우기 위해서 이 수업을 들으려고 한다.<br>
 수업은 모두 Google Coursera에서 진행하며, [Google Coursera - DeepLearning](https://www.coursera.org/specializations/deep-learning)에서 제공한다.
 
-`이번내용은 [1-1]주차 입니다.`
+`이번내용은 [1-1]주차 입니다.` 
 
 </div>
 
