@@ -19,7 +19,7 @@ last_modified_dat : 2023-06-16
 <div class='notice--info' markdown='1'>
 전처리 코드가 너무 느려서 Multiprocess를 이용해 속도를 높여보자
 </div>
-
+ 
 가끔 pandas에서 전처리를 할때 DataFrame rows가 너무 많은 경우가 있다.  
 그런데 For문에 if문에 조건을 걸어서 전처리를 하다보면 너무 느려서 기본 5~6시간 걸릴 경우가 있다.  
 이럴때 Multiprocess를 이용하면 속도를 높일 수 있다.  
