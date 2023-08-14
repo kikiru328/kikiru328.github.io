@@ -1,4 +1,4 @@
----
+--- 
 title : "Python Multiprocess를 이용한 DataFrame 전처리 코드"
 excerpt : "Python Multiprocess"
 
