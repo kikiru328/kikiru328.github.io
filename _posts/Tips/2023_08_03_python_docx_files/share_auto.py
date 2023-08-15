@@ -3,7 +3,7 @@ import copy
 import pandas as pd
 import os
 import docx as doc
-import pandas as pd
+import pandas as pd 
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--format', type=str, default='./format.docx')
