@@ -134,7 +134,7 @@ def update_row_cells(table_instance, data_table, ind):
     writer_para.alignment = doc.enum.text.WD_ALIGN_PARAGRAPH.CENTER
     date_para.alignment = doc.enum.text.WD_ALIGN_PARAGRAPH.CENTER
 
-
+ ~~~~
 
 if __name__ == '__main__':
     document = Document(args.format)
