@@ -3,3 +3,4 @@
 3. Python
 4. Notion
 
+이제 좀 하자
