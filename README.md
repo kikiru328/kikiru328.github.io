@@ -1,1 +1,1 @@
-last day of September
+least write one commit and study
