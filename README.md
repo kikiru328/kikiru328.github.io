@@ -1,1 +1,1 @@
-least write one commit and study
+CHU_SEOK
