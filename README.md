@@ -3,4 +3,5 @@
 - [ ] Post 업로드
 - [ ] 공부 업로드
 - [ ] 포트폴리오 작성!  
-- [ ] Labeling Part time 
+- [ ] Labeling Part time
+- [ ] Obsidian
