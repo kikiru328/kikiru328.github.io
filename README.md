@@ -6,3 +6,4 @@
 - [ ] Labeling Part time
 - [x] Obsidian
 - [ ] Lung Segmentation  #todo
+- [ ] 3d..?
