@@ -5,4 +5,4 @@
 - [ ] 포트폴리오 작성!  
 - [ ] Labeling Part time
 - [x] Obsidian
-- [ ] Lung Segmentation 
+- [ ] Lung Segmentation  #todo
