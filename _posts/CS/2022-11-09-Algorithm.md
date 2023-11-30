@@ -16,7 +16,7 @@ toc_sticky : true
 date : 2023-02-23
 last_modified_dat : 2023-02-23
 ---
-<div class='notice' markdown='1'>
+<div class='notice' markdown='1'>. 
 <b><font size='2'>Introduction</font></b>  
 비전공자로서 객관적인 자기 평가를 하던 중, 빅데이터 분석 기사에서 배우는 컴퓨터 공학 기초 이외에  
 자료구조, 알고리즘 등등 공부해야 할 필요성을 느껴서 <u>비전공자</u>의 눈으로 정리해보려고 한다.  
