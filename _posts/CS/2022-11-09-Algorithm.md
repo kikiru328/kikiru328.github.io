@@ -3,7 +3,7 @@ title : "[CS] Algorithm-Basic"
 excerpt : "Algorithm of Computer Sciences"
    
 categories: 
- - ComputerScience
+ - ComputerScience 
 tags: 
  - [Algorithm, Basic]
  
