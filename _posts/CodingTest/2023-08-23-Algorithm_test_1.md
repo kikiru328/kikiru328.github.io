@@ -5,7 +5,7 @@ excerpt : "Algorithm of Computer Sciences"
 
 categories: 
  - CodingTest
-tags: 
+tags:  
  - [Algorithm, Basic]
  
      
