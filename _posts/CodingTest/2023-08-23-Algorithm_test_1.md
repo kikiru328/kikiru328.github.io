@@ -5,11 +5,11 @@ excerpt : "Algorithm of Computer Sciences"
 
 categories: 
  - CodingTest
-tags: 
+tags:  
  - [Algorithm, Basic]
  
      
-toc : true
+toc : true 
 toc_sticky : true
 
   
