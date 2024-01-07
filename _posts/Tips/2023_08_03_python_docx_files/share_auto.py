@@ -2,7 +2,7 @@ from docx import Document
 import copy
 import pandas as pd
 import os
-import docx as doc
+import docx as doc  
 import pandas as pd 
 import argparse
 parser = argparse.ArgumentParser()
