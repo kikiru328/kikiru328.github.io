@@ -42,8 +42,8 @@
             </ul>            
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python Basic" %} 
-                        <li><a href="/categories/Python" class="">Python Basic ({{category[1].size}})</a></li>
+                    {% if category[0] == "PythonBasic" %} 
+                        <li><a href="/categories/PythonBasic" class="">Python Basic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>                                   
