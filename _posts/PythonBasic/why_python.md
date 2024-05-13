@@ -5,7 +5,7 @@ excerpt : "Why Python"
 categories: 
  - PythonBasic
 tags: 
- - [Nomard, Scrap, Python]
+ - [Nomard, Scrap, PythonBasic]
 
  
 toc : true
