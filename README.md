@@ -1,3 +1,3 @@
-- [x] Portfolio
-- [x] Reading Material 
- 
+- [X] Portfolio
+- [X] Reading Material
+
