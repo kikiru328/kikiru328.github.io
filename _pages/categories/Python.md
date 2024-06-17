@@ -1,7 +1,7 @@
 ---
-title: "Python Basic Course"
+title: "Python Basic"
 layout: archive
-permalink: categories/PythonBasic
+permalink: categories/Python
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['PythonBasic'] %}
+{% assign posts = site.categories['Python'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -3,9 +3,9 @@ title : "Python Basic"
 excerpt : "Why Python"
 
 categories: 
- - PythonBasic
+ - Python
 tags: 
- - [Nomard, Scrap, PythonBasic]
+ - [Nomard, Scrap, Python]
 
  
 toc : true
