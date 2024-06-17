@@ -75,10 +75,10 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python" %} 
-                        <li><a href="/categories/Python" class="">Python({{category[1].size}})</a></li>
+                        <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>          
+            </ul>             
 
         {% comment %} ####################### Web ########################## {% endcomment %}            
         <span class="nav__sub-title">Web Design</span>
@@ -95,7 +95,7 @@
                         <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>    
+            </ul>      
 
         {% comment %} ####################### Tips ########################## {% endcomment %}                   
         <span class="nav__sub-title">Tips</span>
