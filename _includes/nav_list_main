@@ -19,6 +19,89 @@
             </ul>
         {% endcomment %}
 
+        {% comment %} ####################### Language ########################## {% endcomment %}            
+        <span class="nav__sub-title">Language</span>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JS" %} 
+                        <li><a href="/categories/JS" class="">JS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %} 
+                        <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>               
+
+        {% comment %} ####################### Frameworks ########################## {% endcomment %}    
+        <span class="nav__sub-title">Frameworks</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Temsorflow" %} 
+                        <li><a href="/categories/Tensorflow" class="">Tensorflow ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>          
+                <ul>
+                    {% for category in site.categories %}
+                        {% if category[0] == "Pytorch" %} 
+                            <li><a href="/categories/Pytorch" class="">Pytorch ({{category[1].size}})</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Flask" %} 
+                        <li><a href="/categories/Flask" class="">Flask ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>          
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Django" %} 
+                        <li><a href="/categories/Django" class="">Django ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "React" %} 
+                        <li><a href="/categories/React" class="">React ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>  
+
+        <span class="nav__sub-title">Cooperation Tools</span>            
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "HTML" %} 
+                    <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+
+        
+        {% comment %} ####################### Web ########################## {% endcomment %}            
+        <span class="nav__sub-title">Web Design</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "HTML" %} 
+                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CSS" %} 
+                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            
         {% comment %} ####################### STUDY LOG ########################## {% endcomment %}
         <span class="nav__sub-title">Study Log</span>
             <ul>
@@ -34,7 +117,7 @@
                         <li><a href="/categories/CourseraDL" class="">Coursera DL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>                  
+            </ul>   
 
         {% comment %} ####################### Documentation ########################## {% endcomment %}
         <span class="nav__sub-title">Documents</span>
@@ -61,41 +144,7 @@
                         <li><a href="/categories/CodingTest" class="">CodingTest ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>      
-
-        {% comment %} ####################### Language ########################## {% endcomment %}            
-        <span class="nav__sub-title">Language</span>   
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JS" %} 
-                        <li><a href="/categories/JS" class="">JS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Python" %} 
-                        <li><a href="/categories/Python" class="">Python ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>             
-
-        {% comment %} ####################### Web ########################## {% endcomment %}            
-        <span class="nav__sub-title">Web Design</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "HTML" %} 
-                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>   
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CSS" %} 
-                        <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>      
+            </ul>                   
 
         {% comment %} ####################### Tips ########################## {% endcomment %}                   
         <span class="nav__sub-title">Tips</span>
