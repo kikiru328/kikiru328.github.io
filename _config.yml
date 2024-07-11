@@ -16,11 +16,11 @@ minimal_mistakes_skin: "custom" # "default"  "air", "aqua", "contrast", , "dirt"
 
 # Site Settings
 locale: "ko-KR"
-title: "오월의 기록 🐾"
+title: "개발기록"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "Daniel Kim"
-description: "공부기록🐾"
+description: "개발기록"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "kikiru328/Dev_log.Study" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -92,7 +92,7 @@ analytics:
 
 # Site Author
 author:
-  name: "오월이 보호자 🐾"
+  name: "Daniel Kim"
   avatar: "https://avatars.githubusercontent.com/u/60537388?s=400&u=35599c66321ab6783bdb8317c44b908f23b2f810&v=4"
   bio: "반갑습니다:)"
   # location: "Seoul, South Korea"
